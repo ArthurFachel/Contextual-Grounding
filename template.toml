@@ -1,0 +1,22 @@
+[environment]
+seed = 42
+test_cases_path = "/teste-cases/"
+
+#change to "true" if you want to use AWS
+bedrock = false 
+#change to "baseline" if you want to use the baseline model, or "enhanced" if you want to use the enhanced model
+state = "baseline"
+
+[model]
+model = "google/gemini-2.5-flash"
+enhanced_model = "google/gemini-2.5-flash"
+
+[generation]
+temperature = 0.9
+top_k = 40
+top_p = 0.75
+do_sample = true
+
+[evaluation]
+results_path = "BRACIS/teste-cases/baseline"
+"model_judge" = "gemma-3-27b-it"
