@@ -15,7 +15,7 @@ logger = logging.get_logger()
 
 eval_model = GeminiModel(
     model="gemma-3-27b",
-    api_key="AIzaSyBEflssy5YKTYHsn571gTMLZh5T8YX97sU",
+    api_key=os.getenv("GEMINI_KEY"),
     temperature=0
 )
 
@@ -197,7 +197,7 @@ def cli() -> None:
 
     tc_path = config["environment"]["test_cases_path"]
 
-    key = os.environ.get("AIzaSyBEflssy5YKTYHsn571gTMLZh5T8YX97sU")
+    key = os.getenv("GEMINI+KEY")
     logger.debug(key)
 
     generation_params = config["generation"]
