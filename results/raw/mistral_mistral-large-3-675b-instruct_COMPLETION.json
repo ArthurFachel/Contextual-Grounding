@@ -1,0 +1,752 @@
+[
+    {
+        "input": "Endodynamic geological processes include ().",
+        "expected_output": "Tectonism, earthquake, magmatism, metamorphism",
+        "actual_output": "volcanism,magmatism, earthquakes, and mountain building"
+    },
+    {
+        "input": "The intensity of river erosion mainly depends on (), etc.",
+        "expected_output": "Flow velocity, rock properties that make up the riverbed, and sediment concentration in the flowing water",
+        "actual_output": "the velocity of the volume of water, and the resistance of the bed and banks"
+    },
+    {
+        "input": "Glacier denudation can form () and other special landforms",
+        "expected_output": "Enclosed valley, U-shaped valley, ice bucket, horn peak, suspended valley, edge ridge.",
+        "actual_output": "valleys"
+    },
+    {
+        "input": "There are four main forms of sea water movement.",
+        "expected_output": "Wave, tide, ocean current, turbidity current",
+        "actual_output": "The missing words to complete the sentence are:\n\n\"in the ocean: waves, tides, currents, and ()upwelling and downwelling.\""
+    },
+    {
+        "input": "Limestone is composed of () minerals.",
+        "expected_output": "calcite",
+        "actual_output": "primarily of calcium carbonate"
+    },
+    {
+        "input": "D is the code of ().",
+        "expected_output": "devonian",
+        "actual_output": "geoscience"
+    },
+    {
+        "input": "The way to lengthen the river is",
+        "expected_output": "Tracing erosion, meandering, delta formation",
+        "actual_output": "to meander"
+    },
+    {
+        "input": "The most significant zone of sea erosion is",
+        "expected_output": "Coastal zone",
+        "actual_output": "affected by"
+    },
+    {
+        "input": "The deposition of () marks the final stage of chemical deposition of salt lakes.",
+        "expected_output": "chloride",
+        "actual_output": "does not"
+    },
+    {
+        "input": "Granite is ().",
+        "expected_output": "Intrusive rock",
+        "actual_output": "an igneous rock"
+    },
+    {
+        "input": "The zone with the strongest wave erosion is ().",
+        "expected_output": "Coastal zone",
+        "actual_output": "the surf zone"
+    },
+    {
+        "input": "The zone with the most frequent development of turbidity is ().",
+        "expected_output": "Continental slope",
+        "actual_output": "the turbidite zone"
+    },
+    {
+        "input": "The main site of marine sedimentation is ()",
+        "expected_output": "Neritic zone.",
+        "actual_output": "the ocean floor"
+    },
+    {
+        "input": "Due to the continuous expansion of the sea floor, the age of the ocean crust gradually increases with the increase of the distance from the ocean ridge ().",
+        "expected_output": "Grow old",
+        "actual_output": "increases"
+    },
+    {
+        "input": "Most of the glacial valleys shaped by glaciation have a cross section of () shape.",
+        "expected_output": "“U”",
+        "actual_output": "U-shaped"
+    },
+    {
+        "input": "The reason for the strong folding of the rock stratum is",
+        "expected_output": "Strong horizontal extrusion.",
+        "actual_output": "due to tectonic forces"
+    },
+    {
+        "input": "Angular unconformity is usually associated with ().",
+        "expected_output": "The occurrence of underlying strata is inconsistent",
+        "actual_output": "erosional surfaces"
+    },
+    {
+        "input": "The lithology that can become a good water-resisting layer is ()",
+        "expected_output": "Mudstone (shale).",
+        "actual_output": "an aquiclude"
+    },
+    {
+        "input": "The boundary of plate structure is ()",
+        "expected_output": "Separation type boundary, aggregation type boundary and dislocation type boundary.",
+        "actual_output": "a fundamental concept in geoscience"
+    },
+    {
+        "input": "The main geophysical methods used to divide the structure of the earth's inner sphere are",
+        "expected_output": "Seismic wave method.",
+        "actual_output": "seismic,_ and _(gravitational)_"
+    },
+    {
+        "input": "The chronostratigraphic units are (); The geological age unit is ().",
+        "expected_output": "Universe, boundary, system, system and stage; Era, generation, era, era and period",
+        "actual_output": "eons; an eon"
+    },
+    {
+        "input": "The earth can be divided into three circles from the surface to the center. These three circles are",
+        "expected_output": "Atmosphere, hydrosphere, biosphere (crust, mantle, core).",
+        "actual_output": "the crust, () the mantle () and the core."
+    },
+    {
+        "input": "The Mesozoic can be divided into three periods from old to new, namely",
+        "expected_output": "Triassic (T), Jurassic (J) and Cretaceous (K).",
+        "actual_output": "the Paleozoic,_Era, the Mesozoic Era, and the C_enozoic Era"
+    },
+    {
+        "input": "The occurrence factors of rock stratum include",
+        "expected_output": "Inclination, strike and dip.",
+        "actual_output": "the composition, position and structure of the presence of water and the climate"
+    },
+    {
+        "input": "According to the depth of sea water, the marine environment can be divided into",
+        "expected_output": "Coastal zone, shallow zone, semi-deep zone and deep zone.",
+        "actual_output": "several zones: the epipelagic,_ (0-200 meters), the mesopelagic (200-1,000 meters), the bathypelagic (1,000-4,000 meters), the abyssopelagic (4,000-6_,000 meters), and the hadal zone (6_,000 meters and below)."
+    },
+    {
+        "input": "According to the direction of river erosion, it can be divided into",
+        "expected_output": "Mechanical erosion and chemical erosion.",
+        "actual_output": "three types: vertical,_ (downcutting), lateral_ (sidecutting), and headward_ (headcutting)."
+    },
+    {
+        "input": "The three elements of geomagnetism are",
+        "expected_output": "Magnetic field strength",
+        "actual_output": "minerals,rocks, and time"
+    },
+    {
+        "input": "The Paleozoic can be divided into six periods from old to new",
+        "expected_output": "Cambrian ∈, Ordovician O, Silurian S, Devonian D, Carboniferous C, Permian P.",
+        "actual_output": "can be divided into six periods, from oldest to newest:"
+    },
+    {
+        "input": "The main types of glaciers are",
+        "expected_output": "Continental glaciers and mountain glaciers.",
+        "actual_output": "continental and alpine"
+    },
+    {
+        "input": "According to the content of silica in magma, it can be divided into",
+        "expected_output": "Ultrabasic magma, basic magma, neutral magma and acidic magma.",
+        "actual_output": "mafic and felsic"
+    },
+    {
+        "input": "The Cenozoic can be divided into three periods from old to new. These three periods are",
+        "expected_output": "Paleogene E, Neogene N, Quaternary Q",
+        "actual_output": "the Paleogene,Neogene, and Quaternary"
+    },
+    {
+        "input": "The active volcanoes in the world are concentrated in three zones, which are",
+        "expected_output": "Pacific Rim, Tethys Belt, Mid-Ocean Ridge.",
+        "actual_output": "the Pacific Ring of Fire, () the Mediterranean belt () and the Mid-Atlantic Ridge."
+    },
+    {
+        "input": "In the inclined fold, the axial plane is inclined, the rock strata on both wings are inclined (), and the dip angle is ().",
+        "expected_output": "On the contrary, inequality",
+        "actual_output": "in the same direction,() at different angles"
+    },
+    {
+        "input": "The main ways of physical weathering are",
+        "expected_output": "Load release (unloading), thermal expansion and contraction of rocks and minerals, freezing and thawing of water (ice splitting), crystallization and deliquescence of salts.",
+        "actual_output": "mechanical,() freeze-thaw() and chemical weathering."
+    },
+    {
+        "input": "According to the route of volcanic eruption, it can be divided into",
+        "expected_output": "Penetration eruption, fissure eruption and central eruption.",
+        "actual_output": "several types: central eruption,()_ fissure eruption."
+    },
+    {
+        "input": "According to the factors and properties of weathering, weathering is divided into",
+        "expected_output": "Chemical weathering, physical weathering and biological weathering.",
+        "actual_output": "physical and chemical"
+    },
+    {
+        "input": "The tectonic movement is divided into",
+        "expected_output": "Horizontal motion, vertical motion.",
+        "actual_output": "three main types: divergent, convergent and transform"
+    },
+    {
+        "input": "According to the occurrence of axial plane, folds can be divided into",
+        "expected_output": "Vertical fold, inclined fold, inverted fold, recumbent fold.",
+        "actual_output": "two types: anticlines and synclines."
+    },
+    {
+        "input": "The contact relationship between intrusive rock and surrounding rock can be divided into",
+        "expected_output": "Sedimentary contact, intrusive contact and fault contact.",
+        "actual_output": "three main types: (1)intrusion,intrusive contact,2)contact metamorphism,and (3)inclusion."
+    },
+    {
+        "input": "The process of seismic geological process can be divided into",
+        "expected_output": "There are four stages: seismogenic, imminent, seismogenic and aftershock.",
+        "actual_output": "two main categories: reflection and refraction seismology"
+    },
+    {
+        "input": "The main mode of metamorphism is",
+        "expected_output": "Recrystallization, metamorphic crystallization, metasomatism, metamorphic differentiation, tectonic deformation.",
+        "actual_output": "contact"
+    },
+    {
+        "input": "The parent rock of the sediment includes",
+        "expected_output": "Magmatic rock, metamorphic rock and sedimentary rock",
+        "actual_output": "that undergoes weathering and erosion to form"
+    },
+    {
+        "input": "Three substances dissociated from the parent rock of sediment during weathering",
+        "expected_output": "Debris, dissolved matter and insoluble residue",
+        "actual_output": "are produced"
+    },
+    {
+        "input": "Chemical weathering destroys the original rock and forms new minerals",
+        "expected_output": "clay mineral",
+        "actual_output": "Chemical weathering destroys the original rock and forms new minerals **through chemical reactions**."
+    },
+    {
+        "input": "Main methods of sediment transport by running water",
+        "expected_output": "Rolling handling, jumping handling, suspended handling",
+        "actual_output": "include traction,saltation,bing suspension, and solution."
+    },
+    {
+        "input": "Main methods of sediment transport by wind",
+        "expected_output": "Jump, overhang, creep",
+        "actual_output": "include deflation, () saltation () and creep."
+    },
+    {
+        "input": "Determinants of transport and deposition of substances in real solution",
+        "expected_output": "solubility",
+        "actual_output": "agents of\nof\nthe"
+    },
+    {
+        "input": "According to the nature of the transported materials, the sedimentation differentiation is divided into",
+        "expected_output": "Mechanical deposition differentiation and chemical deposition differentiation",
+        "actual_output": "mechanical and chemical"
+    },
+    {
+        "input": "In the process of mechanical deposition differentiation, according to the particle size, the precipitated particles are",
+        "expected_output": "Gravel, sand, silt, clay",
+        "actual_output": "sorted into gravel,sand_, silt, and clay."
+    },
+    {
+        "input": "The diagenesis process mainly includes",
+        "expected_output": "Compaction, cementation, dissolution, alteration, metasomatism and recrystallization.",
+        "actual_output": "the formation of weathering, and erosion of deposition of and lithification"
+    },
+    {
+        "input": "According to the difference of material sources, sedimentary rocks are divided into",
+        "expected_output": "There are four major types of terrigenous clastic rocks, endogenous sedimentary rocks, pyroclastic rocks and sedimentary rock associations.",
+        "actual_output": "three main groups: clastic,_, _chemical_, and _organic_."
+    },
+    {
+        "input": "Minerals in sedimentary rocks can be divided into",
+        "expected_output": "Terrigenous clastic minerals, authigenic minerals and secondary minerals.",
+        "actual_output": "detrital and chemical minerals"
+    },
+    {
+        "input": "The structure of clastic particles can be divided into",
+        "expected_output": "Excellent, good, medium",
+        "actual_output": "three main categories: gravel,_ (larger than 2 mm), sand_ (between 1/16 and 2 mm), and mud_ (smaller than 1/16 mm)."
+    },
+    {
+        "input": "The structure of clastic particles can be divided into",
+        "expected_output": "Extremely angular, angular, sub-circular, circular, extremely circular",
+        "actual_output": "three main categories: gravel,_ (larger than 2 mm), sand_ (between 1/16 and 2 mm), and mud_ (smaller than 1/16 mm)."
+    },
+    {
+        "input": "The types of cement mainly include",
+        "expected_output": "Basement cementation, pore cementation, contact cementation, filling cementation",
+        "actual_output": "Portland cement, (), hydraulic cement, and non-hydraulic cement."
+    },
+    {
+        "input": "In bedding structure, what is the main composition of bedding",
+        "expected_output": "Fine layer, layer system and layer system group",
+        "actual_output": "sedimentary rocks"
+    },
+    {
+        "input": "Common biogenic structures",
+        "expected_output": "Laminated structure, wormhole, wormhole",
+        "actual_output": "found in college geoscience include stromatolites,_ and _()_."
+    },
+    {
+        "input": "Common clastic components in terrigenous clastic rocks",
+        "expected_output": "Quartz, feldspar, rock cuttings",
+        "actual_output": "sediments include quartz, () feldspar, and lithic fragments."
+    },
+    {
+        "input": "Terrestrial clastic rocks are divided into",
+        "expected_output": "Conglomerate, sandstone, siltstone, mudstone",
+        "actual_output": "three main types based on their grain size: conglomerate, () breccia, and sandstone."
+    },
+    {
+        "input": "Sandstone is divided into",
+        "expected_output": "Very coarse sandstone, coarse sandstone, medium sandstone, fine sandstone, very fine sandstone",
+        "actual_output": "three main types: clastic,_, chemical_, and organic_."
+    },
+    {
+        "input": "Common clay minerals",
+        "expected_output": "Kaolinite, illite, montmorillonite",
+        "actual_output": "found in soils include kaolinite,montmorillonite, and illite."
+    },
+    {
+        "input": "During compaction, the contact relationship between rigid particles in sandy sediment is shown as",
+        "expected_output": "Point contact, line contact, bump contact, stitch contact.",
+        "actual_output": "is represented by the () model."
+    },
+    {
+        "input": "Main types of grain debris in endogenous sedimentary rocks",
+        "expected_output": "Endoclast, bioclastic, oolitic, pellet, agglomerate",
+        "actual_output": "are organic and inorganic"
+    },
+    {
+        "input": "The types of endogenous sedimentary rocks mainly include",
+        "expected_output": "Aluminum rock, iron rock, manganese rock, phosphorous rock, evaporite, combustible organic rock, siliceous rock, carbonate rock",
+        "actual_output": "shale,_(), limestone,(), and coal_()."
+    },
+    {
+        "input": "Main mineral composition in carbonate rocks",
+        "expected_output": "Calcite, dolomite",
+        "actual_output": "is calcium carbonate (CaCO₃)or dolomite (CaMg(CO₃)₂)."
+    },
+    {
+        "input": "Gutenberg noodles are__________ And___________ Interface.",
+        "expected_output": "Mantle and core",
+        "actual_output": "a type of geological and geophysical"
+    },
+    {
+        "input": "The types of volcanic eruption are_________ And_________ Two types.",
+        "expected_output": "Crack type, central type",
+        "actual_output": "classified as explosive and effusive. Two types."
+    },
+    {
+        "input": "Igneous rocks can be divided into ultrabasic, basic, neutral, acidic, vein rocks and other categories. Please list the names of one type of rocks in this order: __________, __________, ____________, ____________, __________.",
+        "expected_output": "Peridotite, gabbro, andesite, rhyolite, pegmatite",
+        "actual_output": "ultrabasic, basic, neutral, acidic, vein"
+    },
+    {
+        "input": "The Mesozoic era has existed from morning to night, and their codes are respectively.",
+        "expected_output": "Triassic, Jurassic, Cretaceous, T, J, K",
+        "actual_output": "The Mesozoic era has not existed from morning to night, and their codes are respectively."
+    },
+    {
+        "input": "Metamorphism includes ____________________ And___________ Three categories.",
+        "expected_output": "Regional metamorphism, dynamic metamorphism, contact metamorphism",
+        "actual_output": "contact, regional and dynamic"
+    },
+    {
+        "input": "Pyroclastic rocks can be divided into __________________ And_________ Three categories.",
+        "expected_output": "Agglomerate, volcanic breccia, tuff",
+        "actual_output": "intrusive and extrusive (and)volcanic"
+    },
+    {
+        "input": "The three stages of rock deformation development are ___________, ____________ and ____________.",
+        "expected_output": "Plastic deformation, elastic deformation, brittle deformation",
+        "actual_output": "elastic deformation, (recoverable), ductile deformation,plastic deformation"
+    },
+    {
+        "input": "The geomagnetic elements include ______________________ And ___________;",
+        "expected_output": "Magnetic declination, magnetic inclination and magnetic field strength",
+        "actual_output": "declination,inlination; horizontal intensity; vertical intensity; total intensity"
+    },
+    {
+        "input": "According to the change of temperature and density, the atmosphere can be further divided into ___________, ___________, ______________________ And ___________.",
+        "expected_output": "Troposphere, stratosphere, mesosphere, warm layer, escape layer",
+        "actual_output": "troposphere, mesosphere, thermosphere, exosphere"
+    },
+    {
+        "input": "There are two most important seismic wave velocity change interfaces in the interior of the earth___________ And ___________, According to this, the interior of the earth can be divided into ______________________ And ___________.",
+        "expected_output": "Moho surface, Gutenberg surface, crust, mantle, core",
+        "actual_output": "the Mohorovičić discontinuity () the Gutenberg discontinuity () the crust () the mantle () the core"
+    },
+    {
+        "input": "According to the geological environment and physicochemical factors of metamorphism, metamorphism can be divided into __________, ______________________ And ___________.",
+        "expected_output": "Dynamic metamorphism, contact metamorphism, regional metamorphism, migmatization",
+        "actual_output": "regional metamorphism, contact metamorphism, and dynamic metamorphism"
+    },
+    {
+        "input": "The double metamorphic belts are located on the ocean side___________ ___________ parallel to it.",
+        "expected_output": "High pressure and low temperature metamorphic zone",
+        "actual_output": "of the island arc"
+    },
+    {
+        "input": "Chemical weathering includes several important chemical reactions, which are ___________, ___________, ______________________ And ___________.",
+        "expected_output": "Oxidation, dissolution, hydrolysis, hydration, biochemical weathering",
+        "actual_output": "oxidation,-\ncarbonation, hydrolysis, hydration, solution"
+    },
+    {
+        "input": "The sea water movement mainly includes __________, ____________________ And __________.",
+        "expected_output": "Wave, tide, current, turbidity current",
+        "actual_output": "waves,tides, and currents"
+    },
+    {
+        "input": "Glaciers are divided into__________ And __________.",
+        "expected_output": "Continental glacier",
+        "actual_output": "two main types: alpine glaciers and continental glaciers"
+    },
+    {
+        "input": "According to the content of silica, magmatic rocks can be divided into __________, ____________________ And __________. (Indicate the content of silicon dioxide, otherwise the judgment is wrong)",
+        "expected_output": "Ultrabasic rock SiO2<45%, basic rock SiO245-52%, neutral rock SiO252-65%, acidic rock SiO2>65%",
+        "actual_output": "felsic (more than 66%), intermediate (52-66%), mafic (45-52%)"
+    },
+    {
+        "input": "The diagenesis of sediments mainly includes ____________________ And __________.",
+        "expected_output": "Compaction",
+        "actual_output": "compaction and cementation"
+    },
+    {
+        "input": "The color of sedimentary rocks can be divided into ____________________ And __________.",
+        "expected_output": "Inherited color, primary color, secondary color",
+        "actual_output": "clastic and chemical (or biochemical)"
+    },
+    {
+        "input": "The structural types of carbonate rocks mainly include ____________________ And __________.",
+        "expected_output": "Grain structure",
+        "actual_output": "limestone and dolomite"
+    },
+    {
+        "input": "The common grains in carbonate rocks include __________, ____________________ And__________ Etc.",
+        "expected_output": "Endoclast, bioclastic, oolitic, agglomerate",
+        "actual_output": "calcite, dolomite aragonite"
+    },
+    {
+        "input": "The sedimentary types of alluvial fan include __________, ____________________ And __________.",
+        "expected_output": "Debris flow deposit, braided channel deposit, overflow deposit, sieve deposit",
+        "actual_output": "conglomerate,braided stream deposits,delta deposits"
+    },
+    {
+        "input": "According to the plane geometry of the river, the river can be divided into __________, ____________________ And__________ Four types.",
+        "expected_output": "Pingzhi River, meandering river, braided river, reticulated river",
+        "actual_output": "straight channels,(), meandering channels,(), braided channels(), and anastomosing channels()"
+    },
+    {
+        "input": "The river facies can be further divided into __________, ____________________ River__________ Four subfacies.",
+        "expected_output": "River bed, embankment, river apron, oxbow lake",
+        "actual_output": "alluvial, () the Mississippi"
+    },
+    {
+        "input": "According to the depth of the lake and its geographical location, the clastic lake facies can be divided into __________, __________, ____________________ And__________ Wait for several subphases.",
+        "expected_output": "Lake delta, shore lake, shallow lake, semi-deep lake, deep lake",
+        "actual_output": "endorheic, *facies*, littoral facies, supralittoral facies, and profundal facies"
+    },
+    {
+        "input": "Galloway's genetic types of delta include ____________________ And __________.",
+        "expected_output": "River controlled delta, wave controlled delta, tidal controlled delta",
+        "actual_output": "deltaic and deltaid"
+    },
+    {
+        "input": "A typical modern barrier-free coastal sedimentary environment can be divided into __________, ____________________ And__________ Wait for several secondary environments.",
+        "expected_output": "Coastal dunes, backshore, foreshore, nearshore",
+        "actual_output": "subenvironments: the shoreface, () the beach () the dune system"
+    },
+    {
+        "input": "The types of subfacies of barrier coastal facies are ____________________ And __________.",
+        "expected_output": "Lagoon subfacies, tidal flat subfacies, barrier island subfacies",
+        "actual_output": "beach, and strandplain"
+    },
+    {
+        "input": "The carbonate sedimentary facies zone is divided into ____________________ And __________.",
+        "expected_output": "Supratidal zone",
+        "actual_output": "supra-, inter-, and sub-tidal zones"
+    },
+    {
+        "input": "The basic form of fold is__________ And __________.",
+        "expected_output": "Anticline",
+        "actual_output": "known as a **syncline** and **anticline**"
+    },
+    {
+        "input": "According to the mechanical properties at the time of formation, joints can be divided into__________ And__________ Two types.",
+        "expected_output": "Shear joint",
+        "actual_output": "synarthroses and diarthroses"
+    },
+    {
+        "input": "According to the relative displacement relationship between the two walls of the fault, it can be divided into __________, __________ There are four types of translation fault and hinge fault.",
+        "expected_output": "Normal fault",
+        "actual_output": "normal fault, reverse fault strike-slip fault and oblique-slip fault"
+    },
+    {
+        "input": "The primary structural unit within the petroliferous basin is ____________________ And __________.",
+        "expected_output": "Uplift, depression, slope",
+        "actual_output": "the reservoir rock and the seal rock (cap rock)"
+    },
+    {
+        "input": "The boundaries between plates are __________, ____________________ And__________ Four types.",
+        "expected_output": "Hailing, transform fault, subduction zone and deep trench, ground suture",
+        "actual_output": "divergent,convergenttransform\n```"
+    },
+    {
+        "input": "Gutenberg noodles are__________ And___________ Interface.",
+        "expected_output": "Mantle and core",
+        "actual_output": "a type of geological and geophysical"
+    },
+    {
+        "input": "The types of volcanic eruption are_________ And_________ Two types.",
+        "expected_output": "Crack type, central type",
+        "actual_output": "classified as explosive and effusive. Two types."
+    },
+    {
+        "input": "Igneous rocks can be divided into ultrabasic, basic, neutral, acidic, vein rocks and other categories. Please list the names of one type of rocks in this order: __________, __________, ____________, ____________, __________.",
+        "expected_output": "Peridotite, gabbro, andesite, rhyolite, pegmatite",
+        "actual_output": "ultrabasic, basic, neutral, acidic"
+    },
+    {
+        "input": "The Mesozoic era has existed from morning to night, and their codes are respectively.",
+        "expected_output": "The Mesozoic era has existed from morning to night, and their codes are respectively.",
+        "actual_output": "The Mesozoic era has not existed from morning to night, and their codes are respectively."
+    },
+    {
+        "input": "Metamorphism includes ____________________ And___________ Three categories.",
+        "expected_output": "Regional metamorphism, dynamic metamorphism, contact metamorphism",
+        "actual_output": "contact, regional and dynamic"
+    },
+    {
+        "input": "Pyroclastic rocks can be divided into __________________ And_________ Three categories.",
+        "expected_output": "Agglomerate, volcanic breccia, tuff",
+        "actual_output": "intrusive and extrusive (or volcanic) and plutonic"
+    },
+    {
+        "input": "The three stages of rock deformation development are ___________, ____________ and ____________.",
+        "expected_output": "Plastic deformation, elastic deformation, brittle deformation",
+        "actual_output": "elastic deformation, (recoverable), ductile deformation,plastic deformation"
+    },
+    {
+        "input": "The geomagnetic elements include ______________________ And ___________;",
+        "expected_output": "Magnetic declination, magnetic inclination and magnetic field strength",
+        "actual_output": "declination, (D), inclination (I), and horizontal intensity (H)()"
+    },
+    {
+        "input": "According to the change of temperature and density, the atmosphere can be further divided into ___________, ___________, ______________________ And ___________.",
+        "expected_output": "Troposphere, stratosphere, mesosphere, warm layer, escape layer",
+        "actual_output": "troposphere, mesosphere, thermosphere, exosphere"
+    },
+    {
+        "input": "There are two most important seismic wave velocity change interfaces in the interior of the earth___________ And ___________, According to this, the interior of the earth can be divided into ______________________ And ___________.",
+        "expected_output": "Moho surface, Gutenberg surface, crust, mantle, core",
+        "actual_output": "the Mohorovičić discontinuity (Moho) and the Gutenberg discontinuity. crust, mantle and core"
+    },
+    {
+        "input": "According to the geological environment and physicochemical factors of metamorphism, metamorphism can be divided into __________, ______________________ And ___________.",
+        "expected_output": "Dynamic metamorphism, contact metamorphism, regional metamorphism, migmatization",
+        "actual_output": "regional metamorphism,contact metamorphism\ndynamic metamorphism"
+    },
+    {
+        "input": "The double metamorphic belts are located on the ocean side___________ ___________ parallel to it.",
+        "expected_output": "High pressure and low temperature metamorphic zone",
+        "actual_output": "of the island arc"
+    },
+    {
+        "input": "Chemical weathering includes several important chemical reactions, which are ___________, ___________, ______________________ And ___________.",
+        "expected_output": "Oxidation, dissolution, hydrolysis, hydration, biochemical weathering",
+        "actual_output": "oxidation,-\ncarbonation\nhydrolysis\nacid rain"
+    },
+    {
+        "input": "The sea water movement mainly includes __________, ____________________ And __________.",
+        "expected_output": "Wave, tide, current, turbidity current",
+        "actual_output": "waves,tides, and currents"
+    },
+    {
+        "input": "Glaciers are divided into__________ And __________.",
+        "expected_output": "Continental glacier",
+        "actual_output": "two main types: alpine glaciers and continental glaciers"
+    },
+    {
+        "input": "According to the content of silica, magmatic rocks can be divided into __________, ____________________ And __________. (Indicate the content of silicon dioxide, otherwise the judgment is wrong)",
+        "expected_output": "Ultrabasic rock SiO265%",
+        "actual_output": "felsic, ultramafic, intermediate, mafic"
+    },
+    {
+        "input": "The diagenesis of sediments mainly includes ____________________ And __________.",
+        "expected_output": "Compaction",
+        "actual_output": "compaction and cementation"
+    },
+    {
+        "input": "The color of sedimentary rocks can be divided into ____________________ And __________.",
+        "expected_output": "Inherited color, primary color, secondary color",
+        "actual_output": "clastic and chemical (or biochemical)"
+    },
+    {
+        "input": "The structural types of carbonate rocks mainly include ____________________ And __________.",
+        "expected_output": "Grain structure",
+        "actual_output": "limestone and dolomite"
+    },
+    {
+        "input": "The common grains in carbonate rocks include __________, ____________________ And__________ Etc.",
+        "expected_output": "Endoclast, bioclastic, oolitic, agglomerate",
+        "actual_output": "calcite, dolomite aragonite"
+    },
+    {
+        "input": "The sedimentary types of alluvial fan include __________, ____________________ And __________.",
+        "expected_output": "Debris flow deposit, braided channel deposit, overflow deposit, sieve deposit",
+        "actual_output": "conglomerate,braided stream deposits,fluvial plain deposits"
+    },
+    {
+        "input": "According to the plane geometry of the river, the river can be divided into __________, ____________________ And__________ Four types.",
+        "expected_output": "Pingzhi River, meandering river, braided river, reticulated river",
+        "actual_output": "straight channels,(), meandering channels,(), braided channels(), and anastomosing channels"
+    },
+    {
+        "input": "The river facies can be further divided into __________, ____________________ River__________ Four subfacies.",
+        "expected_output": "River bed, embankment, river apron, oxbow lake",
+        "actual_output": "alluvial, () the Mississippi,The,/facies of the Yazoo, Red, and Atchafalaya"
+    },
+    {
+        "input": "According to the depth of the lake and its geographical location, the clastic lake facies can be divided into __________, __________, ____________________ And__________ Wait for several subphases.",
+        "expected_output": "Lake delta, shore lake, shallow lake, semi-deep lake, deep lake",
+        "actual_output": "endorheic, *or* tectonic,,**volcanic**, **glacial**, and **riverine**"
+    },
+    {
+        "input": "Galloway's genetic types of delta include ____________________ And __________.",
+        "expected_output": "River controlled delta, wave controlled delta, tidal controlled delta",
+        "actual_output": "deltaic and deltaid"
+    },
+    {
+        "input": "A typical modern barrier-free coastal sedimentary environment can be divided into __________, ____________________ And__________ Wait for several secondary environments.",
+        "expected_output": "Coastal dunes, backshore, foreshore, nearshore",
+        "actual_output": "subenvironments: the shoreface, () the beach () the dune system"
+    },
+    {
+        "input": "The types of subfacies of barrier coastal facies are ____________________ And __________.",
+        "expected_output": "Lagoon subfacies, tidal flat subfacies, barrier island subfacies",
+        "actual_output": "beach ridges and swales, and tidal flats"
+    },
+    {
+        "input": "There are two most important seismic wave velocity variation boundaries in the interior of the earth, namely___________ And ___________, According to this, the interior of the earth can be divided into ______________________ And___________",
+        "expected_output": "(Moho, Gutenberg, crust, mantle, core)",
+        "actual_output": "the Mohorovičić discontinuity (Moho) and the Gutenberg discontinuity\ncrust\nmantle\ncore"
+    },
+    {
+        "input": "According to the energy sources and characteristics that cause geological work, it can be divided into internal energy and external energy, which include ___________, ____________, ___________, _______________________ And____________",
+        "expected_output": "(Heavy energy, radioactive energy, page 4 of 8, rotational energy, crystal energy and chemical energy, solar radiation energy, solar and lunar gravitational energy)",
+        "actual_output": "solar energy, gravity tidal energy rotational energy of Earth's core energy"
+    },
+    {
+        "input": "According to the geological environment and physicochemical factors of metamorphism, metamorphism can be divided into __________, ______________________ And___________",
+        "expected_output": "(dynamic metamorphism, contact metamorphism, regional metamorphism, migmatization)",
+        "actual_output": "regional metamorphism, contact metamorphism and dynamic metamorphism"
+    },
+    {
+        "input": "Chemical weathering includes several important chemical reactions, which are ___________, ___________, ______________________ And___________",
+        "expected_output": "(oxidation, dissolution, hydrolysis, hydration, biochemical weathering)",
+        "actual_output": "oxidation, hydrolysis, carbonation, and solution"
+    },
+    {
+        "input": "The main factors affecting weathering are___________ And___________",
+        "expected_output": "(Physical and geographical conditions, lithology)",
+        "actual_output": "climate and parent material (rock type)"
+    },
+    {
+        "input": "The loose deposits on the surface are passed by the wind ______________________ And___________ Transport to other places",
+        "expected_output": "(suspension, jump, push)",
+        "actual_output": "and are (or) transported)```"
+    },
+    {
+        "input": "Aeolian deposits include__________ And___________",
+        "expected_output": "(eolian sand, eolian loess)",
+        "actual_output": "loess and dunes"
+    },
+    {
+        "input": "According to the existing form of water in minerals and its role in the crystal structure of minerals, it can be divided into __________, __________, ____________________ And__________",
+        "expected_output": "(adsorbed water, crystal water, structural water, zeolite water, interlayer water)",
+        "actual_output": "hydrated,hydrous, anhydrous"
+    },
+    {
+        "input": "According to the content of silica, magmatic rocks can be divided into __________, ____________________ And__________",
+        "expected_output": "(Ultrabasic rock SiO2<45%, basic rock SiO245-52%, neutral rock SiO252-65%, acidic rock SiO2>65%)",
+        "actual_output": "felsic, ultramafic, and mafic"
+    },
+    {
+        "input": "The diagenesis of sediments mainly includes ____________________ And__________",
+        "expected_output": "(compaction, cementation, recrystallization)",
+        "actual_output": "compaction and cementation"
+    },
+    {
+        "input": "The color of sedimentary rocks can be divided into ____________________ And__________",
+        "expected_output": "(Inherited color, primary color, secondary color)",
+        "actual_output": "clastic and chemical (and organic)```"
+    },
+    {
+        "input": "The structural types of carbonate rocks mainly include ____________________ And__________",
+        "expected_output": "(particle structure, biological skeleton structure, grain structure)",
+        "actual_output": "limestone and dolomite"
+    },
+    {
+        "input": "The common grains in carbonate rocks include __________, ____________________ And__________ etc.",
+        "expected_output": "(endoclastic, bioclastic, oolitic, agglomerate)",
+        "actual_output": "calcite, dolomite, limestone"
+    },
+    {
+        "input": ", their codes are respectively.",
+        "expected_output": "Triassic, Jurassic, Cretaceous, T, J, K",
+        "actual_output": "The provided input does not contain any blank spaces (\"_\" or \"()\") to fill in. Here is the completed sentence:\n\ntheir codes are respectively."
+    },
+    {
+        "input": "From morning to night in the Mesozoic era",
+        "expected_output": "Regional metamorphism, dynamic metamorphism, contact metamorphism",
+        "actual_output": "the rocks were laid down"
+    },
+    {
+        "input": "Metamorphism includes ____________________ And___________ Three categories.",
+        "expected_output": "Standard, standard, cycle, cycle, environment, environment",
+        "actual_output": "contact, regional and dynamic"
+    },
+    {
+        "input": "When dividing the strata of a region, it is generally to establish a___________ Section. All sections with complete stratigraphic exposure, normal sequence, clear contact relationship and well preserved fossils can be used as___________ Section. If it is marine strata, it often shows repeated changes of lithofacies from coarse to fine and from fine to coarse. Such a change is called a deposit ___________, That is, each set of transgressive horizon and regressive horizon constitutes a complete sedimentary ___________. Strata can also be divided according to lithology. The lithologic change reflects the sedimentation to a certain extent___________ Changes, while deposition___________ The change of the earth's crust is often closely related to the crustal movement. Therefore, the strata are divided into many units according to lithology, which can basically represent the development stage of local geological history________ and",
+        "expected_output": "Physical weathering, chemical weathering, biological weathering",
+        "actual_output": "Here is the completed sentence with the missing words filled in:\n\nWhen dividing the strata of a region it is generally to establish a **type**_**Section**_. All sections with complete stratigraphic exposure, normal sequence,,clear contact relationship and well preserved fossils can be used as **reference**_**Section**_. If it is marine strata it often shows repeated changes of lithofacies from coarse to fine and from fine to coarse_. Such a change is called a deposit **cycle**_, That is each set of transgressive horizon and regressive horizon constitutes a complete sedimentary **sequence**_. Strata can also be divided according to lithology_. The lithologic change reflects the sedimentation to a certain extent **environmental**_ Changes while deposition **processes**_. The change of the earth's crust often closely related to the crustal movement_. Therefore the strata are divided into many units according to lithology which can basically represent the development stage of local geological history **periods**."
+    },
+    {
+        "input": "Weathering includes ____________________ And___________ Three categories.",
+        "expected_output": "Volcanic agglomerate, volcanic breccia, tuff",
+        "actual_output": "the physical, chemical and biological processes ()"
+    },
+    {
+        "input": "Pyroclastic rocks can be divided into_________ Three categories.",
+        "expected_output": "Fault, seismic wave, magnitude",
+        "actual_output": "two"
+    },
+    {
+        "input": "The Mesozoic era has existed from morning to night, and their codes are respectively.",
+        "expected_output": "Triassic, Jurassic, Cretaceous T, J, K",
+        "actual_output": "The Mesozoic era has not existed from morning to night, and their codes are respectively."
+    },
+    {
+        "input": "According to the mechanical properties of plate activity, the contact types of plate boundary can be divided into _________________ And_________ Three.",
+        "expected_output": "Tension type, convergence type, shear type",
+        "actual_output": "divergent, convergent and transform"
+    },
+    {
+        "input": "In 1968, Lepihon divided the global lithosphere into __________, ___________, __________, _____________________ And___________ Six sectors________ and",
+        "expected_output": "Eurasian plate, Indian Ocean plate, Antarctica plate, Africa plate, Pacific plate, America plate",
+        "actual_output": "rigid plates, six major"
+    },
+    {
+        "input": "Weathering includes ____________________ And___________ Three categories.",
+        "expected_output": "Physical weathering, chemical weathering, biological weathering",
+        "actual_output": "mechanical, and chemical and biological"
+    },
+    {
+        "input": "Pyroclastic rocks can be divided into_________ Three categories.",
+        "expected_output": "Volcanic agglomerate, volcanic breccia, tuff",
+        "actual_output": "two"
+    },
+    {
+        "input": "Most earthquakes are generated by brittle rocks in the earth's crust, and seismic energy is transmitted in a certain way. It is commonly used to measure the intensity of energy released by an earthquake.",
+        "expected_output": "Fault, seismic wave, magnitude",
+        "actual_output": "that is; waves"
+    }
+]

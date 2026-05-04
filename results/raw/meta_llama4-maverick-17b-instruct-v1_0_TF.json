@@ -1,0 +1,672 @@
+[
+    {
+        "input": "Minerals all have cleavage",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "According to the content of quartz, magmatic rocks can be further divided into four categories: ultrabasic, basic, neutral and acidic",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The upper wall of a fault refers to the ascending disk of a fault",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The first period of Mesozoic is called Triassic",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Permian is the last period of Paleozoic",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Physical weathering does not change the chemical composition of rocks",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The largest flat surface of gravel in alluvium tends to the upper reaches of rivers",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "There is no groundwater in magmatic rock area",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Most glacial deposits have obvious bedding",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Sediments in the ocean are carried by rivers",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "Desert is mainly formed by the geological action of wind",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "In the anticline structure, the rock strata in the central part are relatively old",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Weathering is the geological action of wind",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Bedding is an important structure of sedimentary rocks",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "If the strike of rock strata is known, the tendency of rock strata will be known",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Sea earthquakes often lead to turbidity current on the seabed",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Rock folds are mainly formed by external dynamic geological processes",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The contact relationship between two sets of strata with the same occurrence is called integrated contact",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The gravity sold by matter on the earth is the universal gravitation of the earth",
+        "expected_output": "False",
+        "actual_output": "## Step 1: Understand the statement\nThe statement claims that the gravity exerted by matter on the earth is the universal gravitation of the earth. To assess its truthfulness, we need to understand what \"universal gravitation\" and \"gravity exerted by matter on the earth\" mean.\n\n## Step 2: Define key terms\n\"Universal gravitation\" refers to the gravitational force that attracts two bodies towards each other, as described by Newton's law of universal gravitation. The \"gravity exerted by matter on the earth\" refers to the gravitational force exerted by the Earth on objects or matter on or near its surface.\n\n## Step 3: Analyze the statement\nThe statement seems to be comparing or equating \"the gravity sold by matter on the earth\" (which likely is a mistranslation or misinterpretation and should mean \"the gravity exerted by the Earth on matter\") with \"the universal gravitation of the earth.\" The universal gravitation of the Earth refers to the Earth's gravitational pull on other objects.\n\n## Step 4: Clarify the intended meaning\nAssuming the statement intends to say that the gravitational force exerted by the Earth on matter (or objects) is the Earth's universal gravitation, we need to consider if this is accurate. The Earth's universal gravitation is its gravitational attraction to other masses.\n\n## Step 5: Evaluate the truthfulness\nThe gravitational force exerted by the Earth on objects on or near its surface is indeed a manifestation of the Earth's universal gravitation. However, the term \"universal gravitation\" typically refers to the gravitational interaction between any two masses. The Earth's gravity is a specific case of universal gravitation, where one of the masses is the Earth.\n\n## Step 6: Determine the accuracy of the statement\nThe statement is somewhat ambiguous due to the phrase \"gravity sold by matter on the earth,\" which doesn't make sense. If we interpret it as referring to the gravitational force between the Earth and objects on it, then it's discussing the Earth's gravity, which is a result of the Earth's mass and its universal gravitation.\n\n## Step 7: Decide on True or False\nGiven the likely intended meaning, the statement is trying to equate the Earth's gravity (on objects) with its universal gravitation. The Earth's gravity is a manifestation of its universal gravitation. However, the statement is poorly phrased. If we consider it as saying the gravity (force) exerted by the Earth is its universal gravitation, it's somewhat misleading because \"universal gravitation\" is a broader concept. Yet, in the context of the Earth and objects on it, the force is the Earth's gravitational pull, which is part of universal gravitation.\n\n## Step 8: Final interpretation\nConsidering the probable intent and simplifying the interpretation: The gravity experienced by objects on Earth is due to the Earth's mass and is a part of the universal gravitation phenomenon. Thus, the statement, although awkwardly phrased, seems to be affirming a true principle regarding gravity.\n\nThe final answer is: $\\boxed{False}$"
+    },
+    {
+        "input": "The hardness of quartz is greater than that of calcite",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Stomatal structures are common in volcanic rocks",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Differential weathering is caused by different climates",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Bedrock is a rock foundation",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "In the original horizontal state, the overlying strata are newer and the underlying strata are older",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Earthquake damage to the ground and buildings is called earthquake intensity",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The coastline is the boundary between continental crust and oceanic crust",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The higher the position of the valley terrace, the earlier the terrace formed",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Plate structure, thousand-piece structure and sheet structure are common structures in metamorphic rocks",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The surface gravity value increases with the increase of latitude and decreases with the increase of altitude",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "Lithosphere refers to the crust",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Quartz has well developed cleavage",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Marine geological processes are mainly sedimentation",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "When side erosion occurs, the convex banks of rivers are scoured and collapsed",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Jointed plane refers to the plane formed by the fracture of minerals along a certain direction inside the crystal after being acted by mechanical force",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The type of glaciers in China belongs to mountain glaciers",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Diluvium is the product of river flood period",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The geological process of swamp is mainly biological sedimentation",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Differential weathering is caused by different climates",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Bottom erosion is the erosion that widens the riverbed and valley floor",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The hardness of quartz is greater than that of calcite",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Shear waves cannot pass through liquid objects",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Ice stains have good bedding, sorting and roundness",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "When the river turns, the sedimentation mainly occurs on the convex bank side",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The water level in general civil wells can represent the water level of the phreatic surface in this area",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The crystal plane of quartz has grease luster, and its fracture surface has glass luster",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The chemical formula of calcite is “CaCO3”",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Karst caves are mainly formed near the phreatic surface",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Almond-shaped structure mainly occurs in volcanic rocks",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Calcite has two groups of cleavage",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Most earthquakes in the world belong to tectonic earthquakes",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Calcite is the main mineral composition of limestone and marble",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Field investigation is the most basic and important link in earth science work, which can obtain the first-hand information of the studied objects.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The shape and size of the earth refers to the shape and size of the geoid.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Each ocean floor has a ridge or uplift, of which the Pacific Ocean floor is an uplift and the other three ocean floors are ridges.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Flat-topped seamounts are seamounts near sea level, which are formed by regional subsidence and submergence after their tops are leveled by weathering, denudation and seawater erosion.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The earth's crust consists of two layers: silicon-aluminum layer and silicon-magnesium layer.",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The boundary between continental crust and oceanic crust is at the coastline.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The gravity of the surface decreases with the increase of latitude.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The electrical properties of the earth's interior are mainly related to the magnetic permeability and conductivity of the materials in the earth.",
+        "expected_output": "True",
+        "actual_output": "## Step 1: Understand the statement\nThe statement is about the factors that influence the electrical properties of the earth's interior.\n\n## Step 2: Identify the key factors mentioned\nThe key factors mentioned are magnetic permeability and conductivity of the materials in the earth.\n\n## Step 3: Recall the relevance of magnetic permeability and conductivity\nMagnetic permeability relates to how a material responds to a magnetic field, and conductivity relates to how well a material conducts electricity.\n\n## Step 4: Assess the role of these factors in the earth's electrical properties\nThe electrical properties of the earth's interior are indeed influenced by the conductivity of the materials, as it directly affects how electric currents can flow. Magnetic permeability is more related to the magnetic properties.\n\n## Step 5: Determine the truth of the statement\nThe statement is about the electrical properties being related to magnetic permeability and conductivity. Electrical properties are primarily related to conductivity. However, the earth's magnetic field and its variations are related to both the conductivity (through electromagnetic induction) and the magnetic properties (including permeability) of the earth's interior.\n\n## Step 6: Evaluate the correctness of the statement\nThe electrical properties are mainly related to conductivity. While magnetic permeability is relevant to the earth's magnetic field, the statement's focus is on \"electrical properties.\" The earth's electrical properties are indeed related to conductivity. The role of magnetic permeability is more directly related to magnetic rather than electrical properties, though it can influence electromagnetic phenomena.\n\n## Step 7: Decide on the truth value\nGiven that electrical properties are primarily about how materials conduct electricity (conductivity), and considering that the statement includes magnetic permeability, we need to assess if both are \"mainly related\" to electrical properties. Conductivity is directly relevant; magnetic permeability is less directly related to \"electrical properties\" but is crucial in the context of electromagnetic properties.\n\n## Step 8: Conclusion\nThe statement might be considered somewhat misleading because \"electrical properties\" are more directly related to conductivity. However, in the context of geophysics, both conductivity and magnetic permeability play roles in understanding the earth's electromagnetic behavior. The statement is not entirely false because both factors can influence the earth's electromagnetic response, but it's more accurate to say electrical properties are mainly related to conductivity.\n\nThe final answer is: $\\boxed{False}$"
+    },
+    {
+        "input": "Radioactive elements are generally concentrated in the surface of the solid earth, and mainly concentrated in metamorphic rocks.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Crustal movement can be divided into horizontal movement and vertical movement according to the direction of movement.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The crustal movement after Quaternary is generally called neotectonic movement.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The root cause of earthquakes lies in plate movement.",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "Active volcanoes can only be distributed at the edge of plates.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The whole interior of the earth is molten, and magma exists everywhere.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "In metamorphism, the main function of static pressure is to raise the temperature of metamorphic reaction.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "When clastic material is transported in flowing water, clay-grade particles once deposited are eroded again, which requires greater flowing water speed.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The retreat of the waterfall is caused by the erosion of the river.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The stone forest in Lunan, Yunnan Province was formed by river erosion.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Finland, a country of thousands of lakes, has many lakes that are the causes of rivers.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The amygdala in volcanic rocks belongs to the form of crystalline aggregates.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "According to Rick's Law, deep in the earth's crust, minerals precipitate in the direction of maximum stress and dissolve in the direction of minimum stress.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "According to the classification standard of debris particle size in petroleum industry, the debris particles of 0.25 ~ 0.5 mm are medium sand.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Generally speaking, clastic particles with good roundness have higher sphericity.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Alluvial fan facies sediments are generally poorly sorted and rounded.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Salty lakes refer to lakes with salinity greater than 35%.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "According to PH value, seawater belongs to weakly alkaline medium.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The change of material composition and bedding structure of turbidite in vertical direction follows Bowma sequence, and turbidite profiles in nature should show complete Bowma sequence.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The code name of Cretaceous is T.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The original occurrence of volcanic eruptions is mostly inclined.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "On the plane, the dome structure is characterized by old rock strata at the center and young rock strata around it.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Field investigation is the most basic and important link in earth science work, which can obtain the first-hand information of the studied objects.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The shape and size of the earth refers to the shape and size of the geoid.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Each ocean floor has a ridge or uplift, of which the Pacific Ocean floor is an uplift and the other three ocean floors are ridges.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Flat-topped seamounts are seamounts near sea level, which are formed by regional subsidence and submergence after their tops are leveled by weathering, denudation and seawater erosion.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The earth's crust consists of two layers: silicon-aluminum layer and silicon-magnesium layer.",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The boundary between continental crust and oceanic crust is at the coastline.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The gravity of the surface decreases with the increase of latitude.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The electrical properties of the earth's interior are mainly related to the magnetic permeability and conductivity of the materials in the earth.",
+        "expected_output": "True",
+        "actual_output": "## Step 1: Understand the given statement\nThe statement is about the electrical properties of the earth's interior and their relation to the magnetic permeability and conductivity of the materials within the earth.\n\n## Step 2: Recall the factors influencing electrical properties of the earth's interior\nThe electrical properties of the earth's interior are influenced by several factors, including the conductivity of the materials. Magnetic permeability is a measure of how much a magnetic field can permeate a given material, and conductivity refers to the ability of a material to conduct electric current.\n\n## Step 3: Analyze the role of magnetic permeability and conductivity\nMagnetic permeability affects how magnetic fields interact with the earth's interior, while conductivity directly influences the electrical properties by determining how easily electric currents can flow.\n\n## Step 4: Determine the relevance of magnetic permeability and conductivity to electrical properties\nBoth magnetic permeability and conductivity are relevant to understanding the earth's interior's response to electromagnetic fields. Conductivity is directly related to electrical properties as it determines the flow of electric current. Magnetic permeability is related to how the earth's materials respond to magnetic fields, which is crucial in understanding certain electromagnetic phenomena.\n\n## Step 5: Assess the truth of the statement\nThe statement that the electrical properties of the earth's interior are mainly related to the magnetic permeability and conductivity of the materials is true because both factors play significant roles in how the earth's interior interacts with electromagnetic fields. Conductivity directly affects electrical properties, and while magnetic permeability is more about magnetic fields, it is still a relevant property in the context of electromagnetic induction and the earth's electromagnetic response.\n\nThe final answer is: $\\boxed{True}$"
+    },
+    {
+        "input": "Radioactive elements are generally concentrated in the surface of the solid earth, and mainly concentrated in metamorphic rocks.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Crustal movement can be divided into horizontal movement and vertical movement according to the direction of movement.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The crustal movement after Quaternary is generally called neotectonic movement.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The root cause of earthquakes lies in plate movement.",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "Active volcanoes can only be distributed at the edge of plates.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The whole interior of the earth is molten, and magma exists everywhere.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "In metamorphism, the main function of static pressure is to raise the temperature of metamorphic reaction.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "When clastic material is transported in flowing water, clay-grade particles once deposited are eroded again, which requires greater flowing water speed.",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "The retreat of the waterfall is caused by the erosion of the river.",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The stone forest in Lunan, Yunnan Province was formed by river erosion.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Finland, a country of thousands of lakes, has many lakes that are the causes of rivers.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The amygdala in volcanic rocks belongs to the form of crystalline aggregates.",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Gutenberg surface is the interface between crust and mantle",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The Earth's crust consists of silicon-aluminum layer and silicon-magnesium layer",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The whole interior of the earth is molten and magma exists everywhere",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "In metamorphism, the main function of static pressure is to raise the temperature of metamorphic reaction",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Mylonite is a rock formed by dynamic metamorphism",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Hydration does not belong to chemical weathering",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Under the same climatic conditions, rocks with amorphous, fine grained, isogranular structure or large porosity are less likely to be chemically weathered than rocks with the same composition, such as crystalline, unisogranular and coarse grains",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "In weathering, quartz is the most difficult mineral component of rock to be weathered",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Honeycomb stone is the product of wind erosion",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Aeolian deposits include Aeolian sand and Aeolian loess",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Structural water does not participate in crystal composition and has nothing to do with mineral crystals",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The amygdala in volcanic rocks belongs to the morphology of crystalline aggregates",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The color of minerals can be described by analogy, such as the pig liver color of hematite",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The luster of mineral actually refers to the luminescence of mineral surface",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "The Mohs hardness of diamond is 10",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The cleavage of muscovite is incomplete",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Both augite and hornblende are chain structure silicate minerals",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Kaolinite and mica are silicate minerals with layered structure",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Sedimentary rocks and metamorphic rocks can be transformed into each other",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Quartz and amphibole in magmatic rocks have special significance and can reflect SiO2 saturation in magmatic rocks, so they can be called acidity indicator minerals",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "Bowen reaction series explains the general law of mineral symbiosis and association in magmatic rocks",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Granite is an acid plutonic intrusive rock",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Andesite is a neutral extrusive rock",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Metamorphic rocks formed by metamorphism of sedimentary rocks are called orthomorphic rocks",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Gneiss is a regional metamorphic rock",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "As a result of mechanical sedimentary differentiation, sediments are distributed regularly along the transport direction in the order of gravel-sand-silt-clay",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "The white color of pure quartz sandstone inherits the color of quartz, which is a kind of inherited color",
+        "expected_output": "True",
+        "actual_output": "True"
+    },
+    {
+        "input": "Rock strata with a thickness of 0.5 ~ 0.lm are called thin strata",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "A clastic rock containing 8% medium gravel, 10% fine gravel, 17% coarse sand, 16% medium sand, 18% fine sand, 14% coarse silty sand and 17% fine silty sand should be named as \"gravel-bearing silty sandstone\"",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Detrital particles with good roundness generally have higher sphericity",
+        "expected_output": "False",
+        "actual_output": "False"
+    },
+    {
+        "input": "Basement cementation represents the simultaneous deposition of debris and cementation, which is the product of rapid accumulation",
+        "expected_output": "True",
+        "actual_output": "False"
+    },
+    {
+        "input": "Clay rock is mainly composed of fine particles with grain size < 0.05 mm, and contains a large amount of clay minerals (kaolinite, montmorillonite, hydromica, etc.) loose or consolidated rock",
+        "expected_output": "False",
+        "actual_output": "True"
+    },
+    {
+        "input": "The \"bamboo leaf\" body in bamboo leaf limestone widely distributed in North China is a typical internal clastic",
+        "expected_output": "False",
+        "actual_output": "True"
+    }
+]

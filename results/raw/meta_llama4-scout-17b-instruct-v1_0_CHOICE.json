@@ -1,0 +1,912 @@
+[
+    {
+        "input": "The following structures that can coexist in the same type of rocks are:\nChoose from:\n\nA. Stomatal, almond-shaped, thousand-piece\nB. Plate-shaped, gneiss-shaped, pillow-shaped\nC. Wave marks, mud cracks, parallel bedding",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The most soluble of the following rocks are:\nChoose from:\n\nA. Limestone\nB. Dolomite\nC. Mudstone",
+        "expected_output": "C",
+        "actual_output": "A."
+    },
+    {
+        "input": "The following materials are mainly formed by groundwater metasomatism:\nChoose from:\n\nA. Nodule\nB. Sinter\nC. Silicified Wood\nD. Stone Salt Pseudocrystal",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "Among the following structures, the smallest displacement of geological body is:\nChoose from:\n\nA. Normal Fault\nB. Reverse Fault\nC. Translation Fault\nD. Joint",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "The following geological ages are arranged from old to new as:\nChoose from:\n\nA. S-O-Z-T-P\nB. Z-O-S-P-T\nC. Z-S-O-T-P\nD. S-Z-O-P-T",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The following fully cleaved minerals are:\nChoose from:\n\nA. Quartz\nB. Muscovite\nC. Pyroxene",
+        "expected_output": "C",
+        "actual_output": "B"
+    },
+    {
+        "input": "The sequence of various leases in the formation of sedimentary rocks is:\nChoose from:\n\nA. Weathering-transporting-denudation-sedimentary-diagenesis\nB. Weathering-denudation-transporting-sedimentary-diagenesis\nC. Denudation-weathering-transporting-sedimentary-diagenesis",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Chemical weathering is most easily carried out at:\nChoose from:\n\nA. Cold and dry areas\nB. Warm and humid areas\nC. Arid areas",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "The plate-like intrusive rock mass formed by magma intrusion along the fault plane (zone) of surrounding rock is called:\nChoose from:\n\nA. Rock Plant\nB. Rock Bed\nC. Rock Wall",
+        "expected_output": "C",
+        "actual_output": "D is not available but based on common geological terms, the description best fits a \"Sill\" but among the given options and common terms I choose:\n\n\nC."
+    },
+    {
+        "input": "Most volcanoes on the Earth are located in:\nChoose from:\n\nA. Continental Rift Zone\nB. Pacific Rim Zone\nC. Alpine-Mediterranean-Himalayan Zone",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The process in which the original rock is basically in solid state and is changed into another new rock mainly by internal dynamic geological process is called:\nChoose from:\n\nA. Magmatism\nB. Weathering\nC. Metamorphism",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The main changes of limestone metamorphism into marble are:\nChoose from:\n\nA. Mineral composition\nB. Rock color\nC. Rock structure",
+        "expected_output": "C",
+        "actual_output": "A"
+    },
+    {
+        "input": "River erosion mainly occurs in:\nChoose from:\n\nA. Downstream\nB. Midstream\nC. Upstream",
+        "expected_output": "C",
+        "actual_output": "A."
+    },
+    {
+        "input": "The bedrock is formed by magma:\nChoose from:\n\nA. Ejection\nB. Intrusion\nC. Metasomatism",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Root cleavage of plants belongs to:\nChoose from:\n\nA. Chemical weathering\nB. Physical weathering\nC. Biological weathering",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The interface between crust and mantle is called:\nChoose from:\n\nA. Gutenberg\nB. Conrad\nC. Moho",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Gabbro is:\nChoose from:\n\nA. Extrusive Rock\nB. Intrusive Rock\nC. Metamorphic Rock",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Among the following rocks, the weakest resistance to chemical weathering is:\nChoose from:\n\nA. Granite\nB. Limestone\nC. Quartz Sandstone",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Gymnosperms flourished in:\nChoose from:\n\nA. Paleozoic\nB. Cenozoic\nC. Cenozoic 29. Streaks were (color mineral powder\nD. mineral surface",
+        "expected_output": "C",
+        "actual_output": "## Step 1: Understand the question context\nThe question is about college geoscience and specifically asks about the time period during which gymnosperms flourished.\n\n## 2: Recall geological time scales and major plant groups\nGymnosperms are a group of plants that include conifers, cycads, and ginkgos. They are known to have dominated landscapes during certain periods of Earth's history.\n\n## 3: Associate gymnosperms with the correct geological era\nGymnosperms are often associated with the Mesozoic Era, but they also appeared and flourished in the Paleozoic Era. However, their peak diversity and dominance are often noted in the Mesozoic, but they indeed started flourishing in the Paleozoic.\n\n## 4: Evaluate the given options\n- A. Paleozoic: This is a correct era for the emergence and flourishing of early gymnosperms.\n- B. Cenozoic: This is more commonly associated with the rise of angiosperms (flowering plants).\n- C. This option seems incomplete and not relevant.\n- D. This option seems incomplete and not relevant.\n\n## 5: Choose the correct option\nGiven that gymnosperms did indeed start flourishing in the Paleozoic Era, the correct answer can be identified.\n\nThe best answer is A."
+    },
+    {
+        "input": "The morphology of amphibole is:\nChoose from:\n\nA. Flaky\nB. Granular\nC. Long columnar",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Reptiles flourished in:\nChoose from:\n\nA. Paleozoic\nB. Cenozoic\nC. Mesozoic",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "In the Mohs hardness tester, the minerals with hardness grade 7 are:\nChoose from:\n\nA. Gypsum\nB. Quartz\nC. Topaz",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "Quiet volcanoes emit mainly:\nChoose from:\n\nA. Acid lava\nB. Basic lava\nC. Neutral lava",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "The main mineral compositions of gabbro are:\nChoose from:\n\nA. Hornblende and plagioclase\nB. Pyroxene and plagioclase\nC. Plagioclase and quartz",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Glaciers:\nChoose from:\n\nA. Have sorting function\nB. Have rounding function\nC. Have no sorting function' in the process of detritus transportation",
+        "expected_output": "C",
+        "actual_output": "A."
+    },
+    {
+        "input": "The half order of lake chemical deposition in arid climate region is:\nChoose from:\n\nA. Sulfate-chloride-carbonate\nB. Chloride-sulfate-carbonate\nC. Carbonate-sulfate-chloride",
+        "expected_output": "C",
+        "actual_output": "B"
+    },
+    {
+        "input": "In which period did human, true images and real horses appear:\nChoose from:\n\nA. J\nB. K\nC. T\nD. Q",
+        "expected_output": "D",
+        "actual_output": "## Step 1: Understand the context of the question\nThe question seems to be related to the geologic time scale or a similar classification system used in geoscience, possibly referring to eons, eras, periods, or epochs.\n\n## 2: Identify the relevant geologic time scale\nThe geologic time scale is divided into eons, eras, periods, and epochs. Without specific details on what \"J\", \"K\", \"T\", and \"Q\" refer to, we must infer that these are likely abbreviations for periods or epochs.\n\n## 3: Recall common abbreviations and periods\n- \"T\" could stand for Tertiary, which is a geologic period.\n- \"Q\" could stand for Quaternary, another geologic period.\n- \"J\" could stand for Jurassic, a period within the Mesozoic era.\n- \"K\" could stand for Cretaceous, also a period within the Mesozoic era.\n\n## 4: Associate periods with the emergence of humans, true images, and real horses\n- Humans appeared during the Quaternary (Q).\n- The emergence of \"true images\" and \"real horses\" would also be associated with more recent geologic time, as horses evolved and diversified significantly during the Cenozoic era, with modern horses appearing in the Quaternary.\n\n## 5: Determine the correct period\nGiven that humans, and presumably modern or \"real\" horses, appeared during the Quaternary period, we can associate \"Q\" with the Quaternary period.\n\nThe best answer is D."
+    },
+    {
+        "input": "Indosinian movement occurred in the period of:\nChoose from:\n\nA. Carboniferous\nB. Permian\nC. Triassic\nD. Cretaceous",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The skarn type deposit was formed by which of the following metamorphism:\nChoose from:\n\nA. Contact metasomatic metamorphism\nB. Regional metamorphism\nC. Burial metamorphism\nD. Dynamic metamorphism",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Caledonian movement occurs in:\nChoose from:\n\nA. Mesozoic\nB. Late Paleozoic\nC. Early Paleozoic\nD. Cenozoic",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Which of the following fold structures must have undergone stratigraphic inversion:\nChoose from:\n\nA. Tilting fold\nB. Vertical fold\nC. Inclined fold\nD. Rolling fold",
+        "expected_output": "D",
+        "actual_output": "## Step 1: Understand the concept of stratigraphic inversion in fold structures.\nStratigraphic inversion in the context of fold structures refers to a situation where older rock layers are found on top of younger rock layers due to the folding process.\n\n## 2: Recall the definitions of different types of folds.\n- Tilting fold: A fold where the axial plane is tilted, but not necessarily indicating inversion.\n- Vertical fold: A fold with a vertical axial plane.\n- Inclined fold: A fold with an axial plane that is inclined to the horizontal, which could but does not necessarily imply inversion.\n- Rolling fold or Recumbent fold: A fold that has been overturned to such an extent that the axial plane is nearly horizontal, often implying stratigraphic inversion.\n\n## 3: Analyze which type of fold must have undergone stratigraphic inversion.\nGiven the definitions, a fold that must have undergone stratigraphic inversion would be one that inherently implies older rocks are on top of younger rocks.\n\n## 4: Match the fold types with the requirement for stratigraphic inversion.\nA rolling or recumbent fold, by its nature of being overturned, indicates that the stratigraphy has been inverted.\n\n## 5: Select the correct option based on the analysis.\nThe fold structure that must have undergone stratigraphic inversion is the one that is characterized by being overturned.\n\nThe best answer is C."
+    },
+    {
+        "input": "In a nappe structure, if the younger rock block is exposed in the older rock block due to strong erosion, the structure is called:\nChoose from:\n\nA. Klippe\nB. Structural window\nC. Overthrust fault\nD. Thrust fault",
+        "expected_output": "B",
+        "actual_output": "A."
+    },
+    {
+        "input": "Sheet structure is a common structure in regional metamorphic rocks. Which of the following is the most metamorphic structure:\nChoose from:\n\nA. Plate structure\nB. Thousand-piece structure\nC. Sheet structure\nD. Strong gneiss",
+        "expected_output": "D",
+        "actual_output": "C."
+    },
+    {
+        "input": "According to isotopic dating, the longest geological period is:\nChoose from:\n\nA. Proterozoic\nB. Paleozoic\nC. Mesozoic\nD. Cenozoic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "If trilobites are found in the strata, then the stratigraphic age is:\nChoose from:\n\nA. Early Ordovician\nB. Tertiary\nC. Cretaceous\nD. Early Cambrian",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "Which sedimentary formation reflects the transformation from marine facies to continental facies:\nChoose from:\n\nA. flysch deposition\nB. turbidity current deposition\nC. molasite deposition\nD. pyroclastic deposition",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Which part of the earth belongs between Gutenberg surface and Moho surface:\nChoose from:\n\nA. Upper crust\nB. Lower crust\nC. Mantle\nD. Core",
+        "expected_output": "C",
+        "actual_output": "B."
+    },
+    {
+        "input": "Mesozoic gymnosperms have been unprecedented development, which of the following plant fossils do not belong to gymnosperms:\nChoose from:\n\nA. Big feather fern\nB. Cycad\nC. Pine and cypress\nD. Ginkgo biloba",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The boundary, system, series and order are:\nChoose from:\n\nA. Lithostratigraphic unit\nC. Biological taxonomic unit\nB. Time unit\nD. Chronostratigraphic unit",
+        "expected_output": "A",
+        "actual_output": "D."
+    },
+    {
+        "input": "What class does quartz belong to in Mohs hardness tester:\nChoose from:\n\nA. 5\nB. 6\nC. 7",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Which of the following rocks belongs to dynamic metamorphic rocks:\nChoose from:\n\nA. Schist\nB. Gneiss\nC. Mylonite\nD. Marble",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Which of the following is a monoelemental mineral:\nChoose from:\n\nA. Quartz\nB. Plagioclase\nC. Biotite\nD. Diamond",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Fine-grained dikes belong to:\nChoose from:\n\nA. plutonic rocks\nB. shallow rocks\nC. sedimentary rocks\nD. subvolcanic rocks",
+        "expected_output": "B",
+        "actual_output": "D"
+    },
+    {
+        "input": "The unique mineral group formed by metamorphism is:\nChoose from:\n\nA. Olivine, pyroxene, hornblende, biotite\nB. Andalusite, hornblende, kaolinite, magnetite\nC. Sericite, andalusite, wollastonite, garnet\nD. Pyroxene, kyanite, graphite, garnet",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Streamline structure generally occurs in which of the following rock types:\nChoose from:\n\nA. Basalt\nB. Andesite\nC. Rhyolite\nD. Trachyte",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Basalt belongs to:\nChoose from:\n\nA. Ultrabasic rock\nB. Basic rock\nC. Acid rock\nD. Neutral rock",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "The shape of the earth is:\nChoose from:\n\nA. Spherical\nB. Ideal rotating ellipsoid\nC. Apple shape\nD. An approximately pear-shaped ellipsoid of revolution",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "The following units that do not belong to the continental surface form are:\nChoose from:\n\nA. Island arc\nB. Hills\nC. Rift Valley\nD. Basin",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "In the following places, the greatest gravity of the earth is:\nChoose from:\n\nA. Equator\nB. Antarctica\nC. Tropic of Cancer\nD. Beijing",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Among the following areas, the area with the highest heat flow value is:\nChoose from:\n\nA. Continental area\nB. Pacific\nC. Atlantic\nD. The Indian Ocean",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "What is closely related to human activities and geological processes in the atmosphere is:\nChoose from:\n\nA. Troposphere\nB. Stratosphere\nC. Middle layer\nD. The warm layer",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the following areas, the area with the smallest earthquake probability is:\nChoose from:\n\nA. Japan\nB. Taiwan\nC. Alaska\nD. Guangzhou",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Among the following silicate minerals, the most easily weathered is:\nChoose from:\n\nA. Quartz\nB. Biotite\nC. Olivine\nD. Hornblende",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Earthquakes distributed in the mid-ocean ridge are characterized by:\nChoose from:\n\nA. Shallow source and large magnitude\nB. The source is deep and the magnitude is large\nC. The source is shallow and the magnitude is small\nD. The source is deep and the magnitude is small",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "The following phenomena that do not belong to groundwater sedimentation are:\nChoose from:\n\nA. Dropping stones in karst caves\nB. Petrified wood\nC. Sinter\nD. Bottom-showing structure",
+        "expected_output": "D",
+        "actual_output": "B"
+    },
+    {
+        "input": "The following are not minerals:\nChoose from:\n\nA. Ice\nB. Quartz\nC. Coal\nD. Natural gold",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Among the following minerals, the hardness is greater than that of quartz:\nChoose from:\n\nA. Topaz\nB. Fluorite\nC. Orthoclase\nD. Calcite",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Granite belongs to:\nChoose from:\n\nA. Acid plutonic intrusive rocks\nB. Neutral epithermal intrusive rocks\nC. Basic plutonic intrusive rocks\nD. Basic epithermal intrusive rocks",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "A clastic rock containing 8% medium gravel, 10% fine gravel, 17% coarse sand, 16% medium sand, 18% fine sand, 14% coarse silty sand and 17% fine silty sand should be named:\nChoose from:\n\nA. Silty sandstone containing gravel\nB. Gravel sandstone containing silt\nC. Gravel siltstone\nD. Silty conglomerate",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the wave zones in the barrier-free coastal zone, the highest energy is:\nChoose from:\n\nA. Rising wave zone\nB. Wave-breaking zone\nC. Broken wave zone\nD. Surfing belt",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The sand flat in the tidal flat subfacies of the barrier coast belongs to:\nChoose from:\n\nA. High tide flat\nB. Mesotidal flat\nC. Low tide flat\nD. Chaoshangping",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Yanshan tectonic stage belongs to:\nChoose from:\n\nA. Cenozoic\nB. Mesozoic\nC. Paleozoic\nD. Proterozoic",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The most important standard fossil of Cambrian is:\nChoose from:\n\nA. graptolite\nB. Coral\nC. Semi-freshwater fish\nD. Trilobites",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "According to the distribution of temperature below the continental surface and the source of geothermal energy, the interior of the earth can be divided into the following temperature layers:\nChoose from:\n\nA. High thermal layer\nB. Outer thermosphere\nC. Normal temperature layer\nD. Inner thermal layer",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The continental crust is composed of:\nChoose from:\n\nA. Silicon-aluminum layer; B Silicon magnesium layer\nB. Magnesium iron layer\nC. Ferrosilicon layer",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the following actions, mechanical weathering of rocks is:\nChoose from:\n\nA. Temperature change\nB. Ice splitting\nC. Release weight of rock\nD. Root cleavage",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "When the river flows, the energy is related to:\nChoose from:\n\nA. Riverbed width\nB. River flow\nC. Velocity of river water\nD. Height difference of riverbed topography",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The movement mode of seawater is mainly as follows:\nChoose from:\n\nA. Sea waves\nB. Tide\nC. Ocean currents\nD. Turbidity current",
+        "expected_output": "A",
+        "actual_output": "C."
+    },
+    {
+        "input": "The common grains in carbonate rock structure are:\nChoose from:\n\nA. Internal grains\nB. Biodetritus\nC. Oolitic\nD. Granules",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "A typical modern barrier-free coastal sedimentary environment can be divided into:\nChoose from:\n\nA. Lagoon\nB. Coastal dunes\nC. Back shore\nD. Foreshore",
+        "expected_output": "B",
+        "actual_output": "A"
+    },
+    {
+        "input": "Mesozoic includes:\nChoose from:\n\nA. Permian\nB. Triassic\nC. Jurassic\nD. Cretaceous",
+        "expected_output": "B",
+        "actual_output": "B \nC \nD \n\nHowever, since I can only pick one, and Mesozoic is often referred to as the age of reptiles and is known to comprise of three periods, I will pick an option that is most exclusively part of Mesozoic without any confusion.\n\nB"
+    },
+    {
+        "input": "Most coal was found in the following strata:\nChoose from:\n\nA. Carboniferous\nB. Jurassic\nC. Permian\nD. Triassic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The occurrence factors of rock strata include:\nChoose from:\n\nA. Strike\nB. Thickness\nC. Tendency\nD. Inclination",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "Geometric elements of faults include:\nChoose from:\n\nA. Fault plane\nB. Break the disk\nC. Displacement\nD. Inclination",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The first-order structural units in petroliferous basins are:\nChoose from:\n\nA. Anticline zone\nB. Rise\nC. Depression\nD. The ramp",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The formation conditions of gravity flow include:\nChoose from:\n\nA. A certain depth\nB. Provenance conditions\nC. Trigger mechanism\nD. Stagnant water environment",
+        "expected_output": "B",
+        "actual_output": "C"
+    },
+    {
+        "input": "In which period did human, true images and real horses appear:\nChoose from:\n\nA. J\nB. K\nC. T\nD. Q",
+        "expected_output": "A",
+        "actual_output": "## Step 1: Understand the context of the question\nThe question is about college geoscience, specifically asking about the period when human, true images, and real horses appeared.\n\n## 2: Recall geological time scale\nThe geological time scale is divided into eons, eras, periods, and epochs. However, without specific details on what A, B, C, and D represent in terms of geological time, we must infer or know the common periods associated with such appearances.\n\n## 3: Associate periods with significant appearances\n- The appearance of humans, true images (which could imply representational art), and real horses (as in, not figurative or symbolic representations) is significant.\n- Humans (Homo sapiens) appeared relatively recently, in the Pleistocene epoch, which is part of the Cenozoic era.\n- True images or representational art also appeared relatively recently, associated with human evolution.\n- Real horses, in the sense of modern horse species (Equus caballus), also appeared in the Pleistocene.\n\n## 4: Match with given options\nGiven that:\n- J, K, T, and Q are provided as options but not directly linked to common geological periods without further context.\n- However, in a common mnemonic or sequence used in geology or Earth sciences, \"Cambrian, Ordovician, Silurian, Devonian, Carboniferous, Permian, Triassic, Jurassic, Cretaceous, Paleogene, Neogene, Quaternary\" can be remembered using the first letter of each period/era in sequence: C, O, S, D, C, P, T, J, K, P, N, Q.\n\n## 5: Identify the correct period\nThe Quaternary period (Q) is when humans, as we know them, and many modern species including horses, appeared. This is also a time when early humans began to create more representational art.\n\nThe best answer is D."
+    },
+    {
+        "input": "Indosinian movement occurred in the period of:\nChoose from:\n\nA. Carboniferous\nB. Permian\nC. Triassic\nD. Cretaceous",
+        "expected_output": "D",
+        "actual_output": "C."
+    },
+    {
+        "input": "The skarn type deposit was formed by which of the following metamorphism:\nChoose from:\n\nA. Contact metasomatic metamorphism\nB. Regional metamorphism\nC. Burial metamorphism\nD. Dynamic metamorphism",
+        "expected_output": "C",
+        "actual_output": "A"
+    },
+    {
+        "input": "Caledonian movement occurs in:\nChoose from:\n\nA. Mesozoic\nB. Late Paleozoic\nC. Early Paleozoic\nD. Cenozoic",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Which of the following fold structures must have undergone stratigraphic inversion:\nChoose from:\n\nA. Tilting fold\nB. Vertical fold\nC. Inclined fold\nD. Rolling fold",
+        "expected_output": "A",
+        "actual_output": "## Step 1: Understand the concept of stratigraphic inversion in fold structures.\nStratigraphic inversion in the context of fold structures refers to a situation where older rock layers are found on top of younger rock layers due to folding.\n\n## 2: Recall the definitions of different types of folds.\n- Tilting fold: A fold where the axial plane is tilted, but not necessarily indicating inversion.\n- Vertical fold: A fold with a vertical axial plane.\n- Inclined fold: A fold with an axial plane that is inclined to the horizontal, which could but does not necessarily imply inversion.\n- Rolling fold or Recumbent fold: A fold that has been overturned to the point where the limbs are nearly horizontal and the fold axis is not vertical, often implying stratigraphic inversion.\n\n## 3: Analyze which type of fold must have undergone stratigraphic inversion.\nGiven the definitions, a fold that must have undergone stratigraphic inversion would be one that inherently implies older rocks are on top of younger rocks.\n\n## 4: Match the fold types with the requirement for stratigraphic inversion.\nA rolling or recumbent fold, by its nature of being overturned, indicates that the original stratigraphic order has been reversed, meaning older layers are on top of younger layers.\n\n## 5: Select the correct option based on the analysis.\nThe fold structure that must have undergone stratigraphic inversion is the one that by definition involves the reversal of the stratigraphic sequence.\n\nThe best answer is C."
+    },
+    {
+        "input": "In a nappe structure, if the younger rock block is exposed in the older rock block due to strong erosion,the structure is called:\nChoose from:\n\nA. Klippe\nB. Structural window\nC. Overthrust fault\nD. Thrust fault",
+        "expected_output": "A",
+        "actual_output": "A."
+    },
+    {
+        "input": "Sheet structure is a common structure in regional metamorphic rocks. Which of the following is metamorphic structure:\nChoose from:\n\nA. Plate structure\nB. Thousand-piece structure\nC. Sheet structure\nD. Gneiss structure",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "According to isotopic dating, the longest geological period is:\nChoose from:\n\nA. Proterozoic\nB. Paleozoic\nC. Mesozoic\nD. Cenozoic",
+        "expected_output": "C",
+        "actual_output": "A"
+    },
+    {
+        "input": "If trilobites are found in the strata, then the stratigraphic age is:\nChoose from:\n\nA. Early Ordovician\nB. Tertiary\nC. Cretaceous\nD. Early Cambrian",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "Which part of the earth belongs between Gutenberg surface and Moho surface:\nChoose from:\n\nA. Upper Crust\nB. Lower Crust\nC. Mantle\nD. Core",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "Mesozoic gymnosperms have been unprecedented development, which of the following plant fossils do not belong to gymnosperms:\nChoose from:\n\nA. Big feather fern\nB. Cycad\nC. Pine and cypress\nD. Ginkgo biloba",
+        "expected_output": "C",
+        "actual_output": "A"
+    },
+    {
+        "input": "The boundary, system, series and order are:\nChoose from:\n\nA. Lithostratigraphic unit\nC. Biological taxonomic unit\nB. Time unit\nD. Chronostratigraphic unit",
+        "expected_output": "C",
+        "actual_output": "D."
+    },
+    {
+        "input": "What class does quartz belong to in Mohs hardness tester:\nChoose from:\n\nA. 5\nB. 6\nC. 7",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The shape of the earth is:\nChoose from:\n\nA. Spherical\nB. Ideal rotating ellipsoid\nC. Apple shape\nD. An approximately pear-shaped ellipsoid of revolution",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "The following units that do not belong to the continental surface form are:\nChoose from:\n\nA. Island arc\nB. The hills\nC. Rift Valley\nD. Basin",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "In the following places, the greatest gravity of the earth is:\nChoose from:\n\nA. Equator\nB. Antarctica\nC. Tropic of Cancer\nD. Beijing",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Among the following areas, the area with the highest heat flow value is:\nChoose from:\n\nA. Continental area\nB. Pacific\nC. Atlantic\nD. The Indian Ocean",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "What is closely related to human activities and geological processes in the atmosphere is:\nChoose from:\n\nA. Troposphere\nB. Stratosphere\nC. Middle layer\nD. The warm layer",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the following areas, the area with the smallest earthquake probability is:\nChoose from:\n\nA. Japan\nB. Taiwan\nC. Alaska\nD. Guangzhou",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Among the following silicate minerals, the most easily weathered is:\nChoose from:\n\nA. Quartz\nB. Biotite\nC. Olivine\nD. Hornblende",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Earthquakes distributed in the mid-ocean ridge are characterized by:\nChoose from:\n\nA. Shallow source and large magnitude\nB. The source is deep and the magnitude is large\nC. The source is shallow and the magnitude is small\nD. The source is deep and the magnitude is small",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "The following phenomena that do not belong to groundwater sedimentation are:\nChoose from:\n\nA. Dropping stones in karst caves\nB. Petrified wood\nC. Sinter\nD. Bottom-showing structure",
+        "expected_output": "D",
+        "actual_output": "B"
+    },
+    {
+        "input": "The following are not minerals:\nChoose from:\n\nA. Ice\nB. Quartz\nC. Coal\nD. Natural gold",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Among the following minerals, the hardness is greater than that of quartz:\nChoose from:\n\nA. Topaz\nB. Fluorite\nC. Orthoclase\nD. Calcite",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Granite belongs to:\nChoose from:\n\nA. Acid plutonic intrusive rocks\nB. Neutral epithermal intrusive rocks\nC. Basic plutonic intrusive rocks\nD. Basic epithermal intrusive rocks",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "A clastic rock containing 8% medium gravel, 10% fine gravel, 17% coarse sand, 16% medium sand, 18% fine sand, 14% coarse silty sand and 17% fine silty sand should be named:\nChoose from:\n\nA. Silty sandstone containing gravel\nB. Gravel sandstone containing silt\nC. Gravel siltstone\nD. Silty conglomerate",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the wave zones in the barrier-free coastal zone, the highest energy is:\nChoose from:\n\nA. Rising wave zone\nB. Wave-breaking zone\nC. Broken wave zone\nD. Surfing belt",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The sand flat in the tidal flat subfacies of the barrier coast belongs to:\nChoose from:\n\nA. High tide flat\nB. Mesotidal flat\nC. Low tide flat\nD. Chaoshangping",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Yanshan tectonic stage belongs to:\nChoose from:\n\nA. Cenozoic\nB. Mesozoic\nC. Paleozoic\nD. Proterozoic",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The most important standard fossil of Cambrian is:\nChoose from:\n\nA. Graptolite\nB. Coral\nC. Semi-freshwater fish\nD. Trilobites",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "According to the distribution of temperature below the continental surface and the source of geothermal energy, the interior of the earth can be divided into the following temperature layers:\nChoose from:\n\nA. High thermal layer\nB. Outer thermosphere\nC. Normal temperature layer\nD. Inner thermal layer",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The continental crust is composed of:\nChoose from:\n\nA. Silicon-aluminum layer;\nB. silicon magnesium layer\nC. Magnesium iron layer\nD. Ferrosilicon layer",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the following actions, mechanical weathering of rocks is:\nChoose from:\n\nA. Temperature change\nB. Ice splitting\nC. Release weight of rock\nD. Root cleavage",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "When the river flows, the energy is related to:\nChoose from:\n\nA. The riverbed width\nB. River flow\nC. Velocity of river water\nD. Height difference of riverbed topography",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The movement mode of seawater is mainly as follows:\nChoose from:\n\nA. Sea waves\nB. Tide\nC. Ocean currents\nD. Turbidity current",
+        "expected_output": "A",
+        "actual_output": "C."
+    },
+    {
+        "input": "The common grains in carbonate rock structure are:\nChoose from:\n\nA. Internal grains\nB. Biodetritus\nC. Oolitic\nD. Granules",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "A typical modern barrier-free coastal sedimentary environment can be divided into:\nChoose from:\n\nA. Lagoon\nB. Coastal dunes\nC. Back shore\nD. Foreshore",
+        "expected_output": "B",
+        "actual_output": "A"
+    },
+    {
+        "input": "Mesozoic includes:\nChoose from:\n\nA. Permian\nB. Triassic\nC. Jurassic\nD. Cretaceous",
+        "expected_output": "B",
+        "actual_output": "B, C, D"
+    },
+    {
+        "input": "Most coal was found in the following strata:\nChoose from:\n\nA. Carboniferous\nB. Jurassic\nC. Permian\nD. Triassic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The occurrence factors of rock strata include:\nChoose from:\n\nA. Strike\nB. Thickness\nC. Tendency\nD. Inclination",
+        "expected_output": "A",
+        "actual_output": "B."
+    },
+    {
+        "input": "Geometric elements of faults include:\nChoose from:\n\nA. Fault plane\nB. Break the disk\nC. Displacement\nD. Inclination",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The first-order structural units in petroliferous basins are:\nChoose from:\n\nA. Anticline zone\nB. Rise\nC. Depression\nD. The ramp",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The formation conditions of gravity flow include:\nChoose from:\n\nA. A certain depth\nB. Provenance conditions\nC. Trigger mechanism\nD. Stagnant water environment",
+        "expected_output": "B",
+        "actual_output": "C"
+    },
+    {
+        "input": "The shape of the earth is:\nChoose from:\n\nA. Spherical\nB. Ideal rotating ellipsoid\nC. Apple shape\nD. An approximately pear-shaped ellipsoid of revolution",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "The following units that do not belong to the terrestrial surface form are:\nChoose from:\n\nA. Island arc\nB. The hills\nC. Split\nD. Basin",
+        "expected_output": "A",
+        "actual_output": "C"
+    },
+    {
+        "input": "Closely related to activities and geological activities in the circle is:\nChoose from:\n\nA. Troposphere\nB. Stratosphere\nC. Middle layer\nD. The warm layer",
+        "expected_output": "A",
+        "actual_output": "B"
+    },
+    {
+        "input": "According to the change of temperature and density, the circle can be divided into:\nChoose from:\n\nA. Troposphere\nB. Stratosphere\nC. Middle layer\nD. Warm layer",
+        "expected_output": "A",
+        "actual_output": "## Step 1: Understand the context of the question.\nThe question is about college geoscience and asks about divisions based on changes in temperature and density.\n\n## 2: Recall the layers of the atmosphere and their characteristics.\nThe atmosphere is divided into several layers based on temperature and other properties. These layers are: Troposphere, Stratosphere, Mesosphere (or Middle layer), Thermosphere (or Warm layer), and Exosphere.\n\n## 3: Associate each layer with its defining characteristics.\n- Troposphere: Temperature decreases with altitude.\n- Stratosphere: Temperature remains relatively constant or increases slightly with altitude due to ozone.\n- Mesosphere (Middle layer): Temperature decreases with altitude.\n- Thermosphere (Warm layer): Temperature increases with altitude.\n\n## 4: Determine which option best matches a division based on temperature and density changes.\nGiven that the question mentions division based on changes in temperature and density, we need to consider which of these layers are defined by such changes.\n\n## 5: Analyze the options provided.\n- A. Troposphere\n- B. Stratosphere\n- C. Middle layer (Mesosphere)\n- D. Warm layer (Thermosphere)\n\n## 6: Choose the correct option.\nThe Earth's atmosphere can indeed be discussed in terms of these layers, but the question seems to hint at a broader categorization related to temperature and density changes. However, without specific context on what \"the circle\" refers to, we must infer based on standard atmospheric science. Typically, discussions of atmospheric layers (Troposphere, Stratosphere, Mesosphere, Thermosphere) are based on temperature profiles.\n\nThe best answer is B."
+    },
+    {
+        "input": "The terrestrial crust is composed of:\nChoose from:\n\nA. Silicon-aluminum layer\nB. Silicon magnesium layer\nC. Mg-Fe layer\nD. Ferrosilicon layer",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the following silicate minerals, the most easily weathered is:\nChoose from:\n\nA. British\nB. Cucumite\nC. Olives\nD. Flash",
+        "expected_output": "C",
+        "actual_output": "## Step 1: Identify the minerals\nThe options given are British, Cucumite, Olives, and Flash. However, these do not directly correspond to commonly known silicate minerals. It seems there might be a typographical error or confusion with the names of minerals.\n\n## 2: Correct Identification of Minerals\nTypically, in geology, the terms might be misspelled or not directly recognizable. Common silicate minerals that are often discussed in terms of weathering include Olivine, Pyroxene, Amphibole, and Feldspar, among others.\n\n## 3: Matching Given Options to Possible Minerals\n- \"Olives\" could potentially refer to Olivine, a common silicate mineral.\n- The other options do not directly match well-known silicate minerals.\n\n## 4: Weathering Susceptibility\nOlivine is known for being one of the most easily weathered silicate minerals due to its composition and structure, which makes it highly susceptible to chemical weathering.\n\n## 5: Conclusion\nGiven the likely typographical error and matching \"Olives\" to Olivine, the most easily weathered silicate mineral listed would be Olivine.\n\nThe best answer is C."
+    },
+    {
+        "input": "The main energy sources for external geological work are:\nChoose from:\n\nA. Radioactive energy\nB. Solar energy\nC. Earth leads energy\nD. Kodeolly",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Among the following rocks, the most easily weathered is:\nChoose from:\n\nA. peridotite; B granite\nB. British sandstone\nC. Coriolis force",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Among the energy sources of geological work, the energy inside the earth includes:\nChoose from:\n\nA. Solar radiation energy\nB. Rotational energy\nC. Heavy energy\nD. Crystallization energy and chemical energy\nE. Gravitational energy of the sun and the moon\nE. Radioactive energy",
+        "expected_output": "B",
+        "actual_output": "D"
+    },
+    {
+        "input": "Among the following actions, those belonging to rock mechanical weathering are:\nChoose from:\n\nA. Temperature change\nB. Ice splitting\nC. Release weight of rock\nD. Root cleavage",
+        "expected_output": "A",
+        "actual_output": "B"
+    },
+    {
+        "input": "The main factors affecting weathering are:\nChoose from:\n\nA. Geological camp\nB. Rock structure and structure\nC. Mineral composition of the rock;\nD. Natural geographical conditions ",
+        "expected_output": "B",
+        "actual_output": "C."
+    },
+    {
+        "input": "The type of ice transport by glaciers is:\nChoose from:\n\nA. Suspension\nB. Jumping\nC. Pushing\nD. Carrying",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Diagenesis mainly includes:\nChoose from:\n\nA. Compaction\nB. Cementation\nC. Recrystallization\nD. Colloidal deposition",
+        "expected_output": "A",
+        "actual_output": "## Step 1: Understanding Diagenesis\nDiagenesis refers to the process of converting sediment into sedimentary rock. This process involves various physical, chemical, and biological changes that occur in sediments after their deposition but before their transformation into solid rock.\n\n## 2: Examining the Options\n- Compaction (A) is a process where sediments are compressed, reducing their volume and increasing their density. This is indeed a part of diagenesis.\n- Cementation (B) involves the precipitation of minerals in the pore spaces of sediments, binding them together. This is also a key component of diagenesis.\n- Recrystallization (C) is a process where existing minerals change their crystal form, often resulting in larger crystals. While it can occur during diagenesis, it's more commonly associated with metamorphism.\n- Colloidal deposition (D) is not typically listed as a primary process of diagenesis.\n\n## 3: Identifying the Main Processes of Diagenesis\nThe main processes generally recognized as part of diagenesis include compaction, cementation, and recrystallization. However, when considering the most directly and broadly associated processes, compaction and cementation are frequently highlighted.\n\n## 4: Selecting the Best Answer\nGiven that diagenesis mainly includes compaction and cementation, and considering that recrystallization, while possible, is not as universally included in the basic definition, the best comprehensive answer that covers the main aspects of diagenesis without over-specifying would involve recognizing that both compaction and cementation are critical. However, the question seems to seek a singular best choice that encompasses the essence of diagenesis or its primary aspects.\n\nThe best answer is B."
+    },
+    {
+        "input": "The following are not minerals:\nChoose from:\n\nA. Ice\nB. Quartz\nC. Coal\nD. Native gold",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The water that does not participate in crystal composition and has nothing to do with mineral crystals is:\nChoose from:\n\nA. Zeolite water\nB. Combined water\nC. Interlayer water\nD. Adsorbed water",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Among the following minerals, the hardness is greater than that of Quartz:\nChoose from:\n\nA. Topaz\nB. Fluorite\nC. Orthoclase\nD. Calcite",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Vammica and Miscellaneous mica belong to:\nChoose from:\n\nA. Complete cleavage\nB. Incomplete cleavage\nC. Extremely complete cleavage\nD. Moderate cleavage",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "Olivine belongs to:\nChoose from:\n\nA. Cyclic silicate\nB. Silicate with island structure\nC. Silicate with frame structure\nD. Chain structure silicate",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Granite belongs to:\nChoose from:\n\nA. Acidic deep intrusive lumbite\nB. Neutral shallow intrusive intrusive rocks\nC. Basic plutonic intrusive rocks\nD. Basic shallow intrusive intrusive rock",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "If Fe3＋: Fe2＋ is more than 3, the bottom color of sedimentary rock is:\nChoose from:\n\nA. Brown\nB. Hyper colour\nC. Light green gray\nD. Red or brownish red",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "A clastic rock containing 8% medium gravel, 10% fine gravel, 17% coarse sand, 16% medium sand, 18% fine sand, 14% coarse silty sand and 17% fine silty sand should be named:\nChoose from:\n\nA. silty sandstone containing gravel\nB. Gravel sandstone containing silt\nC. Gravel siltstone\nD. Silty conglomerate",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Leafy limestone is:\nChoose from:\n\nA. Object shelf structure\nB. Granular structure\nC. Grain structure\nD. Muddy structure",
+        "expected_output": "B",
+        "actual_output": "D."
+    },
+    {
+        "input": "The common grains in carbonate rock structure are:\nChoose from:\n\nA. Internal grains\nB. Detritus\nC. Oolitic\nD. Granules",
+        "expected_output": "A",
+        "actual_output": "C."
+    },
+    {
+        "input": "What kind of rocks can diamonds be produced in:\nChoose from:\n\nA. Peridotite\nB. Kimberlite\nC. Gabbro\nD. Andesite",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Caledonian movement occurs in:\nChoose from:\n\nA. Early Paleozoic\nB. Late Paleozoic\nC. Cenozoic\nD. Mesozoic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "In the following mineral assemblages, the four minerals are all silicates:\nChoose from:\n\nA. quartz, olivine, gypsum, potash feldspar\nB. fluorite, talc, muscovite, plagioclase\nC. potash feldspar, talc, andalusite, garnet\nD. pyroxene, calcite, hornblende, pyrite",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Which of the following fold structures must have undergone stratigraphic inversion:\nChoose from:\n\nA. Inclined fold\nB. Vertical fold\nC. Inclined fold\nD. Recumbent fold",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "In a nappe structure, if the older rock block is exposed above the younger rock block due to strong erosion, the structure is called:\nChoose from:\n\nA. Klippe\nB. Structural window\nC. Overthrust fault\nD. Thrust fault",
+        "expected_output": "A",
+        "actual_output": "A."
+    },
+    {
+        "input": "Sheet structure is a common structure in regional metamorphic rocks. Which of the following is the most metamorphic structure:\nChoose from:\n\nA. Plate structure\nB. thousand-piece structure\nC. sheet structure\nD. gneiss weak",
+        "expected_output": "A",
+        "actual_output": "C."
+    },
+    {
+        "input": "Streamline structure generally occurs in which of the following rock types:\nChoose from:\n\nA. Basalt\nB. Andesite\nC. Rhyolite\nD. Trachyte",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "If trilobites are found in the strata, then the stratigraphic age is:\nChoose from:\n\nA. Early Ordovician\nB. Tertiary\nC. Cretaceous\nD. Early Cambrian",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "Which of the following minerals is clay mineral:\nChoose from:\n\nA. Kaolinite\nB. Calcite\nC. Garnet\nD. Pyrite",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "At which time did the total extinction of dinosaurs occur:\nChoose from:\n\nA. Ordovician\nB. Tertiary\nC. Cretaceous\nD. Cambrian",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The part above Moho is called:\nChoose from:\n\nA. Upper crust\nB. Lower crust\nC. Core\nD. Mantle",
+        "expected_output": "B",
+        "actual_output": "D."
+    },
+    {
+        "input": "The era when human beings appeared was:\nChoose from:\n\nA. Tertiary\nB. Quaternary\nC. Sinian\nD. Permian",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The unique mineral group formed by metamorphism is:\nChoose from:\n\nA. sericite, andalusite, wollastonite, garnet\nB. andalusite, hornblende, kaolinite, magnetite\nC. olivine, pyroxene, hornblende, biotite\nD. pyroxene, kyanite, graphite, garnet",
+        "expected_output": "A",
+        "actual_output": "A."
+    },
+    {
+        "input": "What grade does diamond belong to in Mohs hardness tester:\nChoose from:\n\nA. 5\nB. 7\nC. 8",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Which of the following rocks does not belong to dynamic metamorphic rocks:\nChoose from:\n\nA. Schist rock\nB. Fault breccia\nC. Mylonite\nD. Cataclastic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Peridotite belongs to:\nChoose from:\n\nA. Ultrabasic rock\nB. Basic rock\nC. Neutral rock\nD. Acid rock",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The boundary, system, series and order are:\nChoose from:\n\nA. Lithostratigraphic unit\nC. Biological taxonomic unit\nB. Time unit\nD. Chronostratigraphic unit Lamprophyre veins belong to Lithostratigraphic unit",
+        "expected_output": "B",
+        "actual_output": "D."
+    },
+    {
+        "input": "According to isotopic dating, the longest geological period is:\nChoose from:\n\nA. Proterozoic\nC. Mesozoic\nB. Paleozoic\nD. Cenozoic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Streamline structure generally occurs in which of the following rock types:\nChoose from:\n\nA. basalt\nB. andesite\nC. rhyolite\nD. trachyte",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "At which time did the total extinction of dinosaurs occur:\nChoose from:\n\nA. Ordovician\nB. Tertiary\nC. Cretaceous\nD. Cambrian",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "What kind of rocks can diamonds be produced in:\nChoose from:\n\nA. Peridotite\nB. Kimberlite\nC. Gabbro\nD. Andesite",
+        "expected_output": "B",
+        "actual_output": "B"
+    },
+    {
+        "input": "Caledonian movement occurs in:\nChoose from:\n\nA. Early Paleozoic\nB. Late Paleozoic\nC. Mesozoic\nD. Cenozoic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "In the following mineral assemblages, the four minerals are all silicates:\nChoose from:\n\nA. quartz, olivine, gypsum, potash feldspar\nB. fluorite, talc, muscovite, plagioclase\nC. potash feldspar, talc, andalusite, garnet\nD. pyroxene, calcite, hornblende, pyrite",
+        "expected_output": "C",
+        "actual_output": "C"
+    },
+    {
+        "input": "Which of the following fold structures must have undergone stratigraphic inversion:\nChoose from:\n\nA. Inclined fold\nB. Vertical fold\nC. Inclined fold\nD. Recumbent fold",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "In a nappe structure, if the older rock block is exposed above the younger rock block due to strong erosion, the structure is called:\nChoose from:\n\nA. Klippe\nB. Structural window\nC. Overthrust fault\nD. Thrust fault",
+        "expected_output": "A",
+        "actual_output": "A."
+    },
+    {
+        "input": "Sheet structure is a common structure in regional metamorphic rocks. Which of the following is metamorphic structure:\nChoose from:\n\nA. Plate structure\nB. Thousand-piece structure\nC. Sheet structure\nD. Gneiss structure is the weakest",
+        "expected_output": "A",
+        "actual_output": "C."
+    },
+    {
+        "input": "Skarn type deposit is which of the following type of deposit:\nChoose from:\n\nA. Endogenetic deposit\nB. Metamorphic deposit\nC. Contact metasomatic deposit\nD. Eluvial deposit 5 beds",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "If trilobites are found in the strata, then the stratigraphic age is:\nChoose from:\n\nA. Early Ordovician\nB. Tertiary\nC. Cretaceous\nD. Early Cambrian",
+        "expected_output": "D",
+        "actual_output": "D."
+    },
+    {
+        "input": "Which of the following minerals is clay mineral:\nChoose from:\n\nA. Kaolinite\nB. Calcite\nC. Garnet\nD. Pyrite",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Which sedimentary formation reflects the transformation from marine facies to continental facies:\nChoose from:\n\nA. Flysch deposition\nB. Turbidity current deposition\nC. Molasite deposition\nD. Pyroclastic deposition",
+        "expected_output": "C",
+        "actual_output": "C."
+    },
+    {
+        "input": "The part above Moho is called:\nChoose from:\n\nA. Upper crust\nB. Lower crust\nC. Mantle\nD. Core",
+        "expected_output": "B",
+        "actual_output": "A."
+    },
+    {
+        "input": "The era when human beings appeared was:\nChoose from:\n\nA. Tertiary\nB. Quaternary\nC. Sinian\nD. Permian",
+        "expected_output": "B",
+        "actual_output": "B."
+    },
+    {
+        "input": "The unique mineral group formed by metamorphism is:\nChoose from:\n\nA. Sericite, andalusite, wollastonite, garnet\nB. andalusite, hornblende, kaolinite, magnetite\nC. olivine, pyroxene, hornblende, biotite\nD. pyroxene, kyanite, graphite, garnet",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "What grade does diamond belong to in Mohs hardness tester:\nChoose from:\n\nA. 5\nB. 7\nC. 8",
+        "expected_output": "D",
+        "actual_output": "D"
+    },
+    {
+        "input": "Which of the following rocks does not belong to dynamic metamorphic rocks:\nChoose from:\n\nA. schist rock\nB. fault breccia\nC. mylonite\nD. cataclastic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Peridotite belongs to:\nChoose from:\n\nA. Ultrabasic rock\nB. Basic rock\nC. Neutral rock\nD. Acid rock",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "The boundary, system, series and order are:\nChoose from:\n\nA. Lithostratigraphic unit\nC. Biological taxonomic unit\nB. Time unit\nD. Chronostratigraphic unit Lamprophyre veins belong to Lithostratigraphic unit",
+        "expected_output": "B",
+        "actual_output": "D."
+    },
+    {
+        "input": "According to isotopic dating, the longest geological period is:\nChoose from:\n\nA. Proterozoic\nC. Mesozoic\nB. Paleozoic\nD. Cenozoic",
+        "expected_output": "A",
+        "actual_output": "A"
+    },
+    {
+        "input": "Streamline structure generally occurs in which of the following rock types:\nChoose from:\n\nA. Basalt\nB. Andesite\nC. Rhyolite\nD. Trachyte",
+        "expected_output": "C",
+        "actual_output": "## Step 1: Understand what streamline structure refers to in geology.\nStreamline structure, often associated with volcanic rocks, refers to a type of volcanic landform or structure that is characteristic of the way lava flows and solidifies, particularly in a fluid or gaseous state.\n\n## 2: Recall the types of rocks listed and their common characteristics.\n- Basalt: A common, dark-colored, fine-grained, igneous rock.\n- Andesite: A medium-colored, fine-grained, igneous rock commonly found in volcanic regions.\n- Rhyolite: A light-colored, fine-grained, igneous rock that is the volcanic equivalent of granite.\n- Trachyte: A type of volcanic rock that is rich in potassium and has a fine-grained texture.\n\n## 3: Associate each rock type with its likelihood of exhibiting streamline structure.\nStreamline structures are typically associated with volcanic rocks that have a high viscosity and can form distinctive shapes as they erupt and cool. Among the given options, rocks that are more felsic (like rhyolite) tend to have higher viscosities and can form more distinctive volcanic structures.\n\n## 4: Determine which rock type is most commonly associated with streamline structures.\nRhyolite, being more viscous due to its higher silica content, is more likely to form distinctive volcanic features, including those that could be described as streamline in nature, such as certain types of volcanic domes or lava flows.\n\n## 5: Choose the correct option based on the association with streamline structures.\nGiven the characteristics of rhyolite and its potential for forming unique volcanic structures due to its viscosity, it stands out among the options provided.\n\nThe best answer is C."
+    },
+    {
+        "input": "At which time did the total extinction of dinosaurs occur:\nChoose from:\n\nA. Ordovician\nB. Tertiary\nC. Cretaceous\nD. Cambrian",
+        "expected_output": "C",
+        "actual_output": "C."
+    }
+]

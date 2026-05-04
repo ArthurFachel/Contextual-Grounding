@@ -1,0 +1,53 @@
+[environment]
+seed = 42
+# Directory to store and consume test cases
+test_cases_path = "./tc"
+[baselines]
+Choice[ 
+("Llama 3.3", 64.28), 
+
+
+
+
+]
+
+
+
+
+
+
+[model]
+# Can be a huggingface model name or full path for a checkpoint file
+# e.g.
+# mistralai/Ministral-8B-Instruct-2410
+# daven3/k2 | tokenizer = huggyllama/llama-7b
+# meta-llama/Llama-3.2-3B-Instruct
+# meta-llama/Meta-Llama-3.1-8B-Instruct
+# google/gemma-2-9b-it
+pretrained_model_name_or_path = "google/gemma-2-9b-it"
+# Can be a huggingface model name or full path for a checkpoint file
+tokenizer_name_or_path = "google/gemma-2-9b-it"
+# Cache directory to store and consume models.
+cache_dir = ""
+# Specify if should apply the chat template before feeding the model
+should_apply_chat_template = false
+# If peft is true, the model will be loaded with peft
+peft = false
+
+[generation]
+max_new_tokens = 150        # Adjust for shorter output
+min_new_tokens = 2          # Adjust for shorter output
+# no_repeat_ngrams_size = 2 # Prevent repetitive phrases
+# REPETITION_PENALTY = 1.1    # Penalize repetition in word level
+penalty_alpha = 1.1         # penalize repetition with context awareness
+temperature = 0.2           # Control randomness
+top_k = 40                  # Top-k sampling
+top_p = 0.75                # Nucleus sampling
+do_sample = true            # Enable sampling
+
+
+[evaluation]
+# Model to evaluate the test cases
+model_judge = "gpt-4o-mini"
+# Path to store the evaluation results
+results_path = "./results"

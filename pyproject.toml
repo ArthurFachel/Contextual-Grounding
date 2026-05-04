@@ -1,0 +1,121 @@
+[tool.poetry]
+name = "gas"
+version = "0.1.0"
+description = "GeoAI Showdown"
+authors = ["Garcez, Vitor Hugo <vitor_hgbds@hotmail.com>"]
+readme = "README.md"
+license = "GNU GENERAL PUBLIC LICENSE"
+
+
+[[tool.poetry.source]]
+name = "pytorch-gpu-src"
+url = "https://download.pytorch.org/whl/nightly/cu126"
+priority = "explicit"
+
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.13"
+python-dotenv = "^1.0.1"
+setuptools = "^75.8.0"
+openai = "^1.58.1"
+transformers = "^4.47.1"
+accelerate = "^1.2.1"
+bitsandbytes = "^0.45.0"
+rich = "^13.9.4"
+sentencepiece = "^0.2.0"
+deepeval = "=2.0.9"
+bert-score = "^0.3.13"
+peft = "^0.14.0"
+torch = "^2.5.1"
+toml = "^0.10.2"
+types-toml = "^0.10.8.20240310"
+pytest-cov = "^6.1.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.4"
+pre-commit = "^4.0.1"
+mypy = "^1.14.0"
+pytest = "^8.3.4"
+
+[tool.ruff]
+exclude = [".git", ".mypy_cache", ".ruff_cache", ".venv", "paper"]
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle (Error):
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+    # pycodestyle (warning)
+    "W",
+    # eradicate
+    "ERA",
+    # flake8-use-pathlib
+    "PTH",
+    # tryceratops
+    "TRY",
+]
+ignore = [
+    # if-else-block-instead-of-if-exp
+    "SIM108",
+    # replace built-in open with Path.open
+    "PTH123",
+    # commented-ou-code
+    "ERA001",
+    # try-except-raise
+    "TRY003",
+    # move this to an else block
+    "TRY300",
+    # Redundant exception object included in `logging.exception` call
+    "TRY401",
+    # `os.path.exists()` should be replaced by `Path.exists()`
+    "PTH110",
+    # `os.remove()` should be replaced by `Path.unlink()`
+    "PTH107",
+]
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[tool.ruff.format]
+# Like Black, use double quotes for strings.
+quote-style = "double"
+# Like Black, indent with spaces, rather than tabs.
+indent-style = "space"
+# Like Black, respect magic trailing commas.
+skip-magic-trailing-comma = false
+# Like Black, automatically detect the appropriate line ending.
+line-ending = "auto"
+
+[tool.ruff.lint.isort]
+case-sensitive = true
+combine-as-imports = true
+
+[tool.mypy]
+exclude = ["paper"]
+mypy_path = "gas"
+ignore_missing_imports = true
+scripts_are_modules = true
+follow_imports = "silent"
+no_implicit_optional = true
+warn_unused_ignores = true
+show_error_codes = true
+disable_error_code = "func-returns-value"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+gas = 'gas.cli:cli'
