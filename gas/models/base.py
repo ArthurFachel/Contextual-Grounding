@@ -89,7 +89,7 @@ class AWSModel(DeepEvalBaseLLM):
                 time.sleep(10)
                 continue
 
-   # def generate(self, prompt: str, schema: BaseModel = None) -> str | BaseModel:
+    def generate(self, prompt: str, schema: BaseModel = None) -> str | BaseModel:
         headers = {"Content-Type": "application/json"}
         print(f"prompt inicial: \n {prompt}")
         enhance_text = self.enhance(prompt)
