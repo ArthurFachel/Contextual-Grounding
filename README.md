@@ -1,4 +1,4 @@
-# 🌍 Geoscience AI Showdown 🌋
+#  Geoscience AI Showdown 
 
 **A Python project for benchmarking and comparing LLMs for geoscience tasks.**
 
@@ -12,15 +12,15 @@
 
 ---
 
-## 🚀 About GeoAI Showdown
+##  About GeoAI Showdown
 
 Geoscience AI Showdown is a Python-based toolkit designed to benchmark and compare the performance of Large Language Models (LLMs) on various geoscience tasks. This project is a step forward in integrating AI and geoscience, enabling the evaluation of state-of-the-art models in tasks like geoscience reasoning, Q&A, and more.
 
 ---
 
-## 🛠️ Setup
+##  Setup
 
-### ✅ Prerequisites
+### Prerequisites
 
 #### 1. Microsoft C++ Build Tools
 Download the installer from [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
@@ -44,7 +44,7 @@ nvidia-smi
 verify the driver version and [CUDA Compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/index.html#use-the-right-compat-package).
 If the driver is incompatible or not installed, download the correct driver from [Nvidia Drivers](https://www.nvidia.com/en-us/drivers/).
 
-### 🖥️ Environment Configuration
+###  Environment Configuration
 
 #### 1. Create a Virtual Environment
 Inside the project directory, create a virtual environment:
@@ -96,7 +96,7 @@ CUDA_VISIBLE_DEVICES=0
 
 Note: The `CUDA_VISIBLE_DEVICES` variable is set to `0` by default. If you have multiple GPUs, you can change this value to the desired GPU index or unset it to use all available GPUs.
 
-## 🌀 Usage
+##  Usage
 
 In order to conduct a benchmark, first you need to configure the model parameters in the `config.toml` file. The configuration file allows you to specify the model you want to benchmark and their parameters. Please refer to config_template.toml for a template configuration file.
 
@@ -121,7 +121,7 @@ This command will generate test cases using the specified LLM and parameters fro
 gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env evaluate
 ```
 
-## 🧪 Features
+##  Features
 - Benchmarking: Compare the performance of LLMs on geoscience-specific tasks (open-ended and closed-ended).
 - Customizable Configurations: Easily modify model parameters in the `config.toml` file.
 - Benchmark using GEOBENCH NPEE:
