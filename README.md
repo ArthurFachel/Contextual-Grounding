@@ -1,75 +1,67 @@
-#  Geoscience AI Showdown 
+# The Role of Contextual Grounding in Geoscience Benchmarks
 
-**A Python project for benchmarking and comparing LLMs for geoscience tasks.**
+**Self-conditioned prompting for LLM evaluation on geoscientific tasks.**
 
-<div align="center">
-
-[![Programming Language](https://img.shields.io/badge/Python-3.12-blue)]()
+[![Python](https://img.shields.io/badge/Python-3.12-blue)]()
 [![Code Style](https://img.shields.io/badge/code%20style-pep8-orange.svg)]()
-[![Stability](https://img.shields.io/badge/stability-alpha-f4d03f.svg)]()
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)]()
 
-</div>
+This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted at **BRACIS 2026**. We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning — domain classification, geological process identification, and difficulty indicators — and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
 
----
-
-##  About GeoAI Showdown
-
-Geoscience AI Showdown is a Python-based toolkit designed to benchmark and compare the performance of Large Language Models (LLMs) on various geoscience tasks. This project is a step forward in integrating AI and geoscience, enabling the evaluation of state-of-the-art models in tasks like geoscience reasoning, Q&A, and more.
+**Paper authors:** Arthur Fachel, Otávio Parraga, André Luiz Durante Spigolon, George de Barros, Luiz Gonzaga Jr., Maurício Roberto Veronez, Rodrigo C. Barros, and Lucas Silveira Kupssinskü.
 
 ---
 
-##  Setup
+## Key Findings
+
+- **Contextual grounding helps most models** — Mistral Large 3 gained up to **+22% accuracy** on True/False and **+18.44%** on Multiple Choice.
+- **But it hurts models with small context windows** — Mixtral 8x7B degraded in True/False, Noun, and QA tasks due to context saturation.
+- **Domain matters** — process-driven subdomains (Sedimentary Geology, Metamorphism, Historical Geology) benefit greatly, while spatially intensive ones (Structural Geology, Tectonic Stratigraphy) degrade.
+- **Larger active parameter count** correlates with larger enhancement gains.
+
+---
+
+## What this repo does
+
+This is the official implementation of the contextual grounding framework from the paper. It provides a CLI (`gas`) to:
+
+1. **Generate** test cases from the GeoBench benchmark using an LLM
+2. **Evaluate** model responses using an LLM-as-a-judge pipeline (DeepEval + Gemma 3 27B)
+
+The framework supports two modes:
+- **Baseline** — raw geoscientific queries with no enrichment
+- **Enhanced** — queries augmented with structured semantic context (domain classification, geological process identification, difficulty indicators)
+
+---
+
+## Setup
 
 ### Prerequisites
 
-#### 1. Microsoft C++ Build Tools
-Download the installer from [Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
-During installation, select the following workloads:
-  - Desktop development with C++
-  - MSVC (Microsoft C++ compiler)
-  - C++ CMake tools for Windows
-  - Windows 11 SDK
+- Python 3.11–3.12
+- Poetry
+- API keys for your chosen provider (AWS Bedrock, DeepInfra, or OpenAI-compatible)
 
-#### 2. CUDA Toolkit
-Verify CUDA Installation:
+### Installation
+
 ```bash
-nvcc --version
-```
-If CUDA is not installed download it from [Nvidia CUDA Toolkit](https://developer.nvidia.com/cuda-downloads).
+# Clone the repo
+git clone https://github.com/ArthurFachel/Contextual-Grounding.git
+cd Contextual-Grounding
 
-Check the current Nvidia driver version:
-```bash
-nvidia-smi
-```
-verify the driver version and [CUDA Compatibility](https://docs.nvidia.com/deploy/cuda-compatibility/index.html#use-the-right-compat-package).
-If the driver is incompatible or not installed, download the correct driver from [Nvidia Drivers](https://www.nvidia.com/en-us/drivers/).
-
-###  Environment Configuration
-
-#### 1. Create a Virtual Environment
-Inside the project directory, create a virtual environment:
-```bash
+# Create and activate a virtual environment
 python -m venv .venv
-```
-Then, activate the virtual environment:
-```bash
-.venv\Scripts\activate
-```
+source .venv/bin/activate  # Linux/Mac
+# .venv\\Scripts\\activate  # Windows
 
-#### 2. Install Dependencies
-Install Poetry to manage dependencies:
-```bash
+# Install Poetry and dependencies
 pip install poetry
-```
-
-Then, install the project dependencies:
-```bash
 poetry install --with dev
 ```
 
-#### 3. Set Environment Variables
+### Environment Variables
 
-Create a `.env` file in the root directory and configure the required variables:
+Create a `.env` file in the project root:
 
 ```bash
 # Core APIs
@@ -93,42 +85,101 @@ CONFIDENT_METRIC_LOGGING_VERBOSE=0
 
 # GPU (optional)
 CUDA_VISIBLE_DEVICES=0
-
-Note: The `CUDA_VISIBLE_DEVICES` variable is set to `0` by default. If you have multiple GPUs, you can change this value to the desired GPU index or unset it to use all available GPUs.
-
-##  Usage
-
-In order to conduct a benchmark, first you need to configure the model parameters in the `config.toml` file. The configuration file allows you to specify the model you want to benchmark and their parameters. Please refer to config_template.toml for a template configuration file.
-
-
-### Run the CLI
-```bash
-gas --help
 ```
 
-The pipeline is separated into two main components: `generate` and `evaluate`.
-- `generate`: This component is responsible for generating test cases using the specified LLM. It takes the model name and parameters from the configuration file and the LLM generates text based on the provided task.
-- `evaluate`: This component evaluates the generated text against a set of geoscience-specific tasks. It uses the pre-defined evaluation metrics to assess the performance of the LLM.
+---
 
-### Example Command for Generating Test Cases
+## Usage
+
+Configure model parameters in `config.toml` (see `config_template.toml`), then run:
+
 ```bash
+# Generate test cases
 gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env generate --limit 5
-```
-This command will generate test cases using the specified LLM and parameters from the configuration file. The `--limit` flag specifies the number of test cases samples to generate.
 
-### Example Command for Evaluating Test Cases
-```bash
+# Evaluate generated test cases
 gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env evaluate
 ```
 
-##  Features
-- Benchmarking: Compare the performance of LLMs on geoscience-specific tasks (open-ended and closed-ended).
-- Customizable Configurations: Easily modify model parameters in the `config.toml` file.
-- Benchmark using GEOBENCH NPEE:
-  - Open-ended: noun meaning, Q&A and completion (fill-in-the-blank)
-  - Closed-ended: multiple choice, true/false
-- Evaluation Metrics:
-  - Open-ended: PromptAlignmentMetric, Answer Relevancy, Correctness, and Semantic Similarity with BERTScore
-  - Closed-ended: Accuracy.
-- GPU Support: Optimized for CUDA-enabled systems.
+### Tasks
 
+| Flag | Task Type | Format |
+|------|-----------|--------|
+| `TF` | True/False | Closed-ended |
+| `CHOICE` | Multiple Choice | Closed-ended |
+| `NOUN` | Noun Meaning | Open-ended |
+| `QA` | Question Answering | Open-ended |
+| `COMPLETION` | Fill-in-the-blank | Open-ended |
+
+### Pipeline
+
+1. **Generate** — the model answers GeoBench questions (baseline or enhanced mode)
+2. **Evaluate** — Gemma 3 27B (via Gemini API) judges responses on Alignment, Relevancy, and Correctness
+
+---
+
+## Models Evaluated
+
+| Model | Active Params | Total Params | Context Length |
+|---|---|---|---|
+| LLaMA-4 Scout | 17B | 109B | 10M tokens |
+| LLaMA-4 Maverick | 17B | 400B | 1M tokens |
+| Mistral Large 3 | 41B | 675B | 256K tokens |
+| Mixtral 8x7B | 12.9B | 46.7B | 32K tokens |
+
+---
+
+## Repository Structure
+
+```
+├── gas/
+│   ├── cli.py              # CLI entry point (argparse)
+│   ├── commons.py           # Shared utilities
+│   ├── logger.py            # Logging configuration
+│   ├── config_template.toml # Model and evaluation config
+│   ├── data/
+│   │   └── geobenchmark_provider.py  # GeoBench data loader
+│   ├── metrics/
+│   │   └── accuracy_score.py
+│   ├── models/
+│   │   ├── base.py          # Base model wrapper
+│   │   ├── peft.py          # PEFT/LoRA model support
+│   │   └── __init__.py      # AWSModel, DeepInfraModel
+│   ├── pipelines/
+│   │   ├── generation.py    # Test case generation pipeline
+│   │   ├── evaluation.py   # Evaluation pipeline (LLM-as-judge)
+│   │   └── pipeline.py      # Base pipeline
+│   └── providers/
+│       ├── data.py          # Data provider
+│       ├── prompt.py        # Prompt templates
+│       └── test_cases.py   # Test case definitions
+├── results/                 # Evaluation outputs
+├── config_template.toml     # Configuration template
+├── pyproject.toml           # Project metadata & dependencies
+└── README.md
+```
+
+---
+
+## Citation
+
+```bibtex
+@inproceedings{fachel2026contextual,
+  title={The Role of Contextual Grounding in Geoscience Benchmarks},
+  author={Fachel, Arthur and Parraga, Otávio and Spigolon, André Luiz Durante and de Barros, George and Gonzaga Jr., Luiz and Veronez, Maurício Roberto and Barros, Rodrigo C. and Kupssinskü, Lucas Silveira},
+  booktitle={BRACIS},
+  year={2026}
+}
+```
+
+---
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+This study was financed in part by CAPES (Finance Code 001), CNPq (Grant 443072/2024-8), FAPERGS (Grant 25/2551-0000891-3), and Petrobras/ANP (Grant 2023/00440-2). Supported by Kunumi Institute and PUCRS (MALTA Lab).
