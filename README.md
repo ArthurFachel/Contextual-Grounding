@@ -6,7 +6,7 @@
 [![Code Style](https://img.shields.io/badge/code%20style-pep8-orange.svg)]()
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)]()
 
-This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted at **BRACIS 2026**. We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning — domain classification, geological process identification, and difficulty indicators — and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
+This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted for publication at **BRACIS 2026** (proceedings forthcoming). We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning — domain classification, geological process identification, and difficulty indicators — and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
 
 **Paper authors:** Arthur Fachel, Otávio Parraga, André Luiz Durante Spigolon, George de Barros, Luiz Gonzaga Jr., Maurício Roberto Veronez, Rodrigo C. Barros, and Lucas Silveira Kupssinskü.
 
@@ -163,12 +163,15 @@ gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env evaluate
 
 ## Citation
 
+If you use this work, please cite the preprint:
+
 ```bibtex
-@inproceedings{fachel2026contextual,
+@misc{fachel2026contextual,
   title={The Role of Contextual Grounding in Geoscience Benchmarks},
   author={Fachel, Arthur and Parraga, Otávio and Spigolon, André Luiz Durante and de Barros, George and Gonzaga Jr., Luiz and Veronez, Maurício Roberto and Barros, Rodrigo C. and Kupssinskü, Lucas Silveira},
   booktitle={BRACIS},
-  year={2026}
+  year={2026},
+  note={Accepted for publication, proceedings forthcoming}
 }
 ```
 
