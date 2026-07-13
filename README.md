@@ -6,7 +6,7 @@
 [![Code Style](https://img.shields.io/badge/code%20style-pep8-orange.svg)]()
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)]()
 
-This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted for publication at **BRACIS 2026** (proceedings forthcoming). We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning — domain classification, geological process identification, and difficulty indicators — and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
+This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted for publication at **BRACIS 2026** (proceedings forthcoming). We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning (domain classification, geological process identification, and difficulty indicators) and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
 
 **Paper authors:** Arthur Fachel, Otávio Parraga, André Luiz Durante Spigolon, George de Barros, Luiz Gonzaga Jr., Maurício Roberto Veronez, Rodrigo C. Barros, and Lucas Silveira Kupssinskü.
 
@@ -14,9 +14,9 @@ This repository contains the code and experimental framework for the paper **"Th
 
 ## Key Findings
 
-- **Contextual grounding helps most models** — Mistral Large 3 gained up to **+22% accuracy** on True/False and **+18.44%** on Multiple Choice.
-- **But it hurts models with small context windows** — Mixtral 8x7B degraded in True/False, Noun, and QA tasks due to context saturation.
-- **Domain matters** — process-driven subdomains (Sedimentary Geology, Metamorphism, Historical Geology) benefit greatly, while spatially intensive ones (Structural Geology, Tectonic Stratigraphy) degrade.
+- **Contextual grounding helps most models**: Mistral Large 3 gained up to **+22% accuracy** on True/False and **+18.44%** on Multiple Choice.
+- **But it hurts models with small context windows**: Mixtral 8x7B degraded in True/False, Noun, and QA tasks due to context saturation.
+- **Domain matters**: process-driven subdomains (Sedimentary Geology, Metamorphism, Historical Geology) benefit greatly, while spatially intensive ones (Structural Geology, Tectonic Stratigraphy) degrade.
 - **Larger active parameter count** correlates with larger enhancement gains.
 
 ---
@@ -29,8 +29,8 @@ This is the official implementation of the contextual grounding framework from t
 2. **Evaluate** model responses using an LLM-as-a-judge pipeline (DeepEval + Gemma 3 27B)
 
 The framework supports two modes:
-- **Baseline** — raw geoscientific queries with no enrichment
-- **Enhanced** — queries augmented with structured semantic context (domain classification, geological process identification, difficulty indicators)
+- **Baseline**: raw geoscientific queries with no enrichment
+- **Enhanced**: queries augmented with structured semantic context (domain classification, geological process identification, difficulty indicators)
 
 ---
 
@@ -113,8 +113,8 @@ gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env evaluate
 
 ### Pipeline
 
-1. **Generate** — the model answers GeoBench questions (baseline or enhanced mode)
-2. **Evaluate** — Gemma 3 27B (via Gemini API) judges responses on Alignment, Relevancy, and Correctness
+1. **Generate**: the model answers GeoBench questions (baseline or enhanced mode)
+2. **Evaluate**: Gemma 3 27B (via Gemini API) judges responses on Alignment, Relevancy, and Correctness
 
 ---
 
