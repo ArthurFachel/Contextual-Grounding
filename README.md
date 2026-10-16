@@ -2,9 +2,9 @@
 
 **Self-conditioned prompting for LLM evaluation on geoscientific tasks.**
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue)]()
-[![Code Style](https://img.shields.io/badge/code%20style-pep8-orange.svg)]()
-[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
+[![BRACIS 2026](https://img.shields.io/badge/BRACIS-2026-green)](#citation)
 
 This repository contains the code and experimental framework for the paper **"The Role of Contextual Grounding in Geoscience Benchmarks"**, accepted for publication at **BRACIS 2026** (proceedings forthcoming). We propose a self-conditioned prompting framework that augments raw geoscientific queries with structured semantic reasoning (domain classification, geological process identification, and difficulty indicators) and evaluate it across 4 open-source LLMs on the GeoBench benchmark.
 
@@ -163,13 +163,13 @@ gas --log-level DEBUG --task TF --config ./config.toml --dotenv ./.env evaluate
 
 ## Citation
 
-If you use this work, please cite the preprint:
+If you use this work, please cite the paper:
 
 ```bibtex
-@misc{fachel2026contextual,
+@inproceedings{fachel2026contextual,
   title={The Role of Contextual Grounding in Geoscience Benchmarks},
   author={Fachel, Arthur and Parraga, Otávio and Spigolon, André Luiz Durante and de Barros, George and Gonzaga Jr., Luiz and Veronez, Maurício Roberto and Barros, Rodrigo C. and Kupssinskü, Lucas Silveira},
-  booktitle={BRACIS},
+  booktitle={Proceedings of the Brazilian Conference on Intelligent Systems (BRACIS)},
   year={2026},
   note={Accepted for publication, proceedings forthcoming}
 }
